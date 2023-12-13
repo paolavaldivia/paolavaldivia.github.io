@@ -1,0 +1,21 @@
+<svg width="384.00000000000006" height="384.00000000000006" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+
+ <g stroke="null">
+  <title stroke="null">background</title>
+  <rect stroke="null" fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <path style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_3" d="m80,64l32,0l0,32l-32,0l0,-32zm0,0"/>
+  <path stroke="null" id="svg_5" d="m272,64l32,0l0,32l-32,0l0,-32zm0,0"/>
+  <path stroke="null" id="svg_7" d="m176,144l32,0l0,32l-32,0l0,-32zm0,0"/>
+  <path stroke="null" id="svg_8" d="m272,144l32,0l0,32l-32,0l0,-32zm0,0"/>
+  <path stroke="null" id="svg_9" d="m270.47679,223.31973l32,0l0,32l-32,0l0,-32zm0,0"/>
+  <path stroke="null" id="svg_10" d="m176,224l32,0l0,32l-32,0l0,-32zm0,0"/>
+  <rect stroke="null" transform="rotate(-90 208.2148590087891,310.662109375) " id="svg_12" height="431.19062" width="31.93254" y="95.06683" x="192.2486" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="null"/>
+  <rect stroke="null" transform="rotate(-90 188.14680480957034,15.42302322387694) " id="svg_15" height="406.02046" width="31.93254" y="-187.58721" x="172.18054" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="null"/>
+  <rect stroke="null" id="svg_14" height="320.98618" width="31.93254" y="4.07153" x="-1.36799" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="null"/>
+  <rect stroke="null" id="svg_17" height="320.98618" width="31.93254" y="4.75181" x="353.0549" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="null"/>
+  <path stroke="null" id="svg_6" d="m80,144l32,0l0,32l-32,0l0,-32zm0,0"/>
+ </g>
+</svg>

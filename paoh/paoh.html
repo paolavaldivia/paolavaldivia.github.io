@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="PaohVis tool for visualizing hypergraphs that change over time" name="description">
+    <meta content="Paola Valdivia, Paolo Buono, Jean-Daniel Fekete" name="author">
+    <link href="favicon.ico" rel="icon">
+
+    <title>PaohVis</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro:400,500,700"
+        rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
+    <link href="css/icons.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+    <script src="js/loadingoverlay.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <div id="main-toolbar" class="main-toolbar">
+        </div>
+
+        <div class="footer" id="footerB">
+        </div>
+
+        <div id="automaticClusterContainer" class="groupTabContainer">
+        </div>
+
+        <div id="groupEditorContainer" class="groupTabContainer">
+            
+            <div id="groupEditorC" class="groupEditorC">
+                
+                <div id="groupEditorFirstColumn">
+                    <h4 class="mb-3">
+                        Specify your Prior Knowledge
+                    </h4>
+                    <!-- <div id="groupEditor" class="groupEditor"></div> -->
+                    <div class="mixedInitiativeLegend">
+                        <img id="mixed-initiative-legend"
+                            src="../../../img/prior_knowledge/PKMatchingDisplay_legendNodes2.svg" alt="legend"
+                            height="130px" width="250px" />
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+        <div id="vistorianContainer" class="groupTabContainer">
+            <div class=" ml-2 mr-2" id="vistorianDiv">
+                <div class="d-flex justify-content-between">
+                    <div width="220" name="divs" id="bookmarkFrame"></div>
+                    <div width="220" name="divs" id="visFrame"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--  MARCO    -->
+        <div id="clusteringContainer" class="groupTabContainer">
+            <div class="container-fluid">
+                <!-- Initiative methods
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" id="pills-automatic-tab"
+                            style="border-top-right-radius: 0; border-bottom-right-radius: 0; min-width:100px;     border-right: 0px;"
+                            data-toggle="pill" href="#pills-automatic" role="tab" aria-controls="pills-automatic"
+                            aria-selected="true">Automatic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" id="pills-mixed-tab"
+                            style="border-top-left-radius: 0; border-bottom-left-radius: 0; min-width:100px;" data-toggle="pill"
+                            href="#pills-mixed" role="tab" aria-controls="pills-mixed" aria-selected="false">Mixed</a>
+                    </li>
+                </ul> -->
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show" id="pills-automatic" role="tabpanel" aria-labelledby="pills-automatic-tab">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h3>Automatic Intiative</h3>
+                                </div>
+                                <ul class="nav nav-tabs breadcrumb float-sm-left w-100" role="tablist" id="ul-automatic">
+                                    <li class="breadcrumb-item" role="presentation">
+                                        <a class="active" href="#automatic-tab-1" data-toggle="tab" role="tab" aria-controls="automatic-tab-1"
+                                            aria-selected="true">1. Clustering method selection</a>
+                                    </li>
+                                    <li class="nav-item breadcrumb-item" role="presentation">
+                                        <a class="" href="#automatic-tab-2" data-toggle="tab" role="tab"
+                                            aria-controls="automatic-tab-2" aria-selected="false">2. Parameters</a>
+                                    </li>
+                                    <li class="breadcrumb-item" role="presentation">
+                                        <a class="" href="#automatic-tab-3" data-toggle="tab" role="tab"
+                                            aria-controls="automatic-tab-3" aria-selected="false">3. Clustering</a>
+                                    </li>
+                                </ul>
+                            </div>
+            
+                            <div class="card-body">
+                                <div class="tab-content" id="tab-content-automatic">
+                                    <div class="tab-pane active" id="automatic-tab-1" role="tabpanel"
+                                        aria-labelledby="btn-automatic-1">
+                                        <div class="row">
+                                            <select aria-describedby="btnGroupAddon" class="form-control" id="slbClustering"
+                                                title="Select cluster method">
+                                                <option id="clustDefault" selected value="">None</option>
+                                            </select>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <p id="clustAlgoDescription"></p>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col">
+                                                <a class="btn btn-primary btn-step" href="#automatic-tab-2"  aria-controls="automatic-tab-1" aria-selected="false">Next <i class="fas fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="automatic-tab-2" role="tabpanel" aria-labelledby="btn-automatic-2">
+                                        <form>
+                                            <div class="col">
+                                                <table class="table" id="tblAutomaticClusteringParameters">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 10%">Key</th>
+                                                            <th style="width: 20%">Value</th>
+                                                            <th style="width: 50%">Description</th>
+                                                            <th style="width: 20%;">Valid values</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </form>
+                                        <div class="row text-right">
+                                            <div class="col">
+                                                <a class="btn btn-primary btn-step pull-left mr-auto" href="#automatic-tab-1"  aria-controls="automatic-tab-1" aria-selected="false"><i class="fas fa-chevron-left"></i> Back</a>
+                                                <button id="btnDynCluster" type="button" class="btn btn-secondary btn-step" id="btnAutomaticCluster2" href="#automatic-tab-3">Dyn Cluster</button>
+                                                <button class="btn btn-primary btn-step" type="button" id="btnAutomaticCluster" href="#automatic-tab-3">Cluster <i class="fas fa-chevron-right"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="automatic-tab-3" role="tabpanel" aria-labelledby="btn-automatic-3">
+                                        <div class="ml-4 mb-4">
+                                            <div class="">
+                                                <div id="visClusterResults2" class="w-100" style="max-height: 50vh; overflow-y: auto; overflow-x: hidden;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="btn btn-primary btn-step" href="#automatic-tab-2" data-toggle="tab" role="tab"
+                                            aria-controls="automatic-tab-2" aria-selected="false"><i class="fas fa-chevron-left"></i> Back</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end tab 1-->
+                    <div class="tab-pane fade pills-mixed" id="pills-mixed" role="tabpanel" aria-labelledby="pills-mixed-tab">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h3>Mixed Intiative</h3>
+                                </div>
+                                <ol class="breadcrumb float-sm-left w-100">
+                                    <li class="breadcrumb-item" role="presentation"><a class="active" href="#mixed-tab-1" data-toggle="tab" role="tab" aria-controls="mixed-tab-1"
+                                            aria-selected="true">1. Specify Prior Knowledge (optional)</a></li>
+                                    <li class="breadcrumb-item"><a class="" href="#mixed-tab-2" data-toggle="tab" role="tab" aria-controls="mixed-tab-2"
+                                            aria-selected="false">2. Clustering</a></li>
+                                    <li class="breadcrumb-item"><a class="" href="#mixed-tab-3" data-toggle="tab" role="tab" aria-controls="mixed-tab-3"
+                                            aria-selected="false">3. Review & Compare results</a></li>
+                                </ol>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content" id="tab-content-mixed">
+                                        <div class="tab-pane active" id="mixed-tab-1" role="tabpanel" aria-labelledby="btn-mixed-1">
+                                            <div class="row">
+                                                <h4 class="mb-3">
+                                                    Specify your Prior Knowledge
+                                                </h4>
+                                            </div>
+                                            <div class="row" style="overflow-y: auto; overflow-x: hidden; min-height: 30vh; max-height: 40vh;">
+                                                <div id="groupEditor" class="groupEditor"></div>
+                                                
+                                                <!-- <div id="clusteringEditor" class="clusteringEditor"></div> -->
+                                                <div class="mixedInitiativeLegend" style="display: block;">
+                                                    <img id="mixed-initiative-legend"
+                                                        src="../../../img/prior_knowledge/PKMatchingDisplay_legendNodes2.svg" alt="legend"
+                                                        height="130px" width="250px" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-right">
+                                                    <a class="btn btn-primary btn-step" id="btnMixedClusterStep" href="#mixed-tab-2" aria-controls="mixed-tab-1"
+                                                        aria-selected="false">Next <i class="fas fa-chevron-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="mixed-tab-2" role="tabpanel" aria-labelledby="btn-mixed-2">
+                                            <div class="row">
+                                                <div id="groupTabEditorPkResults" class="groupTabEditorPkResults" style="overflow-y: auto; overflow-x: hidden; min-height: 30vh; max-height: 40vh;">
+                                                    <!--                    <div style="width: 700px;">-->
+                                                    <!--                        <p>-->
+                                                    <!--                            Clustering algorithms matching the prior knowledge, for each person. Results ranked by matching level and algorithm types :-->
+                                                    <!--                        <ul id="algorithm-list-explanation" style="overflow-wrap: break-word;">-->
+                                                    <!--                            <li> <strong> Attributes </strong> based algorithms : it uses the persons' attributes to group them-->
+                                                    <!--                            <li> <strong> Topological </strong> based algorithms : it uses the connexions between people to group them-->
+                                                    <!--                            <li> <strong> Propagation </strong> based algorithms : it uses the prior knowledge and propagate from it to find groups. <br/>-->
+                                                    <!--                                &nbsp;&nbsp;&nbsp;&nbsp; This type of algorithm <strong>always provide a perfect match</strong> as it uses the prior knowledge for its computation-->
+                                                    <!--                        </ul>-->
+                                                    <!--                        </p>-->
+                                                    <!--                    </div>-->
+                                                    <div id="mixedInitiative" class="px-1 py-2">
+                                                
+                                                    </div>
+                                                    <div id="mixedInitiativeBody">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <a class="btn btn-primary btn-step pull-left mr-auto" href="#mixed-tab-1" aria-controls="mixed-tab-1"
+                                                    aria-selected="false"><i class="fas fa-chevron-left"></i> Back</a>
+                                                <a class="btn btn-primary pull-right btn-step ml-auto" href="#mixed-tab-3" aria-controls="mixed-tab-1" aria-selected="false">Next <i
+                                                    class="fas fa-chevron-right"></i></a>
+                                            </div>
+
+                                        </div>
+                                        <div class="tab-pane" id="mixed-tab-3" role="tabpanel" aria-labelledby="btn-mixed-3">
+                                            <div class="row" style="overflow-y: auto; overflow-x: hidden; min-height: 30vh; max-height: 40vh;">
+                                                <div id="consolidate-button-wrapper" class="side-layout">
+                                                    <div class="col-auto">
+                                                        <button id="consolidate-button" class="btn btn-success consolidate-button mr-3 ">Review and compare results
+                                                            <br> of selected algorithms</button>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <button id="consolidate-button-footer" class="btn btn-success consolidate-button mr-3 ">Review and compare  results <br> of selected algorithms into cluster box</button>
+                                                        <br>
+                                                    </div>
+                                                    <!--<button id="consensus-button" disabled class="btn btn-success consolidate-button" style="display: none">Automatic ensemble clustering</button>-->
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <a class="btn btn-primary pull-left btn-step" href="#mixed-tab-2" data-toggle="tab" role="tab" aria-controls="mixed-tab-2"
+                                                aria-selected="false"><i class="fas fa-chevron-left"></i> Back</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div><!--end tab 2-->
+                </div>
+            </div>
+        </div>
+        <!--  /MARCO    -->
+
+
+        <div id="vis">
+
+            <div id="visCanvas">
+                <!--<div style = "float:left; margin-bottom: 5px; width:1500px; height:650px; overflow: auto;" >-->
+                <div id="timeLabelsGroups">
+
+                </div>
+                <canvas id="workspace" style="z-index: 0">
+                    Your browser does not support Canvas.
+                </canvas>
+                <!--            <canvas id="overlay" style="z-index: 1">-->
+                <!--                Your browser does not support Canvas.-->
+                <!--            </canvas>-->
+
+            </div>
+            <div class="dropdown-menu dropdown-menu-sm" id="canvasContextMenu">
+                <a class="dropdown-item context-menu-item" href="#" id="contextOpenDblpTab"  target="_blank">Open in DBLP</a>
+                <a class="dropdown-item context-menu-item" href="#" id="contextLoadInNewTab" target="_blank">Load in new Tab</a>
+                <a class="dropdown-item context-menu-item" href="javascript:;" id="contextLoadUrl">Load here</a>
+            </div>
+
+
+        </div>
+
+        <div class="nodeinfo" id="bibfile">
+            <div id="divcontainer"></div>
+        </div>
+        <!--    </div>-->
+
+        <div>
+            <div id="visScroll">
+                <!--<div style = "float:left; margin-bottom: 5px; width:1500px; height:650px; overflow: auto;" >-->
+                <div id="visScrollHor">
+                    <canvas id="horizontal" style="z-index: 11">
+                        Your browser does not support Canvas.
+                    </canvas>
+                </div>
+                <div id="visScrollVert">
+                    <canvas id="vertical" style="z-index: 10">
+                        Your browser does not support Canvas.
+                    </canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="divConnectedComponentSelection">
+        </div>
+
+        <div id="divCommunityLegend" class="divLegend">
+        </div>
+
+        <div id="divRolesLegend" class="divLegend">
+        </div>
+        <div id="divBibRolesLegend" class="divLegend">
+        </div>
+
+        <div id="divSelectGroupElement">
+        </div>
+
+        <div id="divNameChangeElement">
+        </div>
+
+        <input id="consensus-slider" type="range" min="0" max="0" value="0" class="slider" id="myRange"
+            style="display: none">
+
+    </main>
+
+    <!-- SideNav options -->
+    <div class="sideNav" id="sideNav">
+    </div>
+
+    <div id="clusterSettings">
+    </div>
+
+    <div id="mixedInitiativeSettings">
+    </div>
+
+
+    <div class="width_zero" id="tltip">
+        <div class="ttip" id="ttip_content">
+            <p>no info</p>
+        </div>
+    </div>
+
+    <!-- statistics -->
+    <div class="statisticsSel" id="tsStatistics">
+    </div>
+    <div class="statisticsSel" id="tsStatisticsLeft">
+    </div>
+
+    <!-- menus -->
+
+    <div class="statisticsSel" id="nodeColorElement">
+    </div>
+
+    <div class="statisticsSel" id="nodeGroupElement">
+    </div>
+
+    <!-- hints -->
+
+    <div class="hint" id="hint-element">
+    </div>
+
+    <!-- fixed block review cluster -->
+    <div id="clusteringBox" class="d-none slider-box">
+        <div id="box" class="">
+            <div class="row" style="position: relative; top: 0px; min-height: 35px;">
+                <button id="btnClusterFooter" type="button" class="btn btn-outline-secondary rounded-right trigger" title="click to hide/show content">Clustering</button>
+                <button id="btnClusterAnchorRight" type="button" class="btn btn-outline-secondary rounded-right trigger">dock to right</button>
+                <button type="button" class="close" id="btnCloseClusteringBox" title="click to close Cluster Bar"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="row" id="boxRow">
+                <div id="boxBodyPKG" class="col-md-3 col-sm-12 mr-auto"></div>
+                <div id="boxBody" class="col-md-9 col-sm-12 ml-auto"></div>
+            </div>
+        </div>
+
+        <div id="top-left" class="control-element top left"></div>
+        <div id="top" class="control-element top"></div>
+        <div id="top-right" class="control-element top right"></div>
+        <div id="right" class="control-element right"></div>
+        <div id="bottom-right" class="control-element bottom right"></div>
+        <div id="bottom" class="control-element bottom"></div>
+        <div id="bottom-left" class="control-element bottom left"></div>
+        <div id="left" class="control-element left"></div>
+
+        <div class="status d-none">
+            <div>top: <span id="status-top"></span>px</div>
+            <div>left: <span id="status-left"></span>px</div>
+            <div>width: <span id="status-width"></span>px</div>
+            <div>height: <span id="status-height"></span>px</div>
+        </div>
+    </div>
+
+    <link href="css/paoh-clustering.css" rel="stylesheet">
+    <!-- Paovis css -->
+    <link href="css/paoh.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/Toolbar.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
+    <!-- Tooltip css -->
+    <link href="css/tooltip.css" rel="stylesheet">
+
+
+    <!-- Scripts -->
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" defer />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+<script experiment="js/html5shiv.min.js"></script>
+<script experiment="js/respond.min.js"></script>
+<![endif]-->
+
+    <!--includes parser for converting BibTex files into a JSON format -->
+    <script defer src="js/zotero-bibtex-parse.js" type="text/javascript"></script>
+    <script defer src="js/parserBib.js" type="text/javascript"></script>
+
+
+    <script src="js/science.v1.js"></script>
+    <script src="js/tiny-queue.js"></script>
+    <script src="js/simplify.js"></script>
+    <script src="js/d3.js"></script>
+
+
+
+    <script src="js/FastBitSet.js"></script>
+    <script src="js/emoji-button.js"></script>
+
+    <script defer src="main.dart.js"></script>
+
+    <!--<script type="application/dart" src="main.dart"></script>-->
+    <!--<script async src="packages/browser/dart.js"></script>-->
+
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script experiment="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+
+    <!--<script>window.jQuery || document.write('<script experiment="js/vendor/jquery.min.js"><\/script>')</script>-->
+    <!-- Jquery js -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+
+    <script>
+        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <!-- Vistorian library-->
+    <script language="javascript" type="text/javascript" src="./src/components/Vistorian_tab/networkcube.js"></script>
+    <script language="javascript" type="text/javascript" src="./src/components/Vistorian_tab/lib/jstorage.js"></script>
+    <script language="javascript" type="text/javascript" src="./src/components/Vistorian_tab/storage.js"></script>
+    <script language="javascript" type="text/javascript" src="./src/components/Vistorian_tab/utils.js"></script>
+    <script language="javascript" type="text/javascript" src="./src/components/Vistorian_tab/vistorian.js"></script>
+    <!--end-->
+    <!--TreeView script and css-->
+    <link href="css/ui.fancytree.css" rel="stylesheet" />
+    <script src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="js/jquery.fancytree-all-deps.min.js"></script>
+    <script src="js/jquery.fancytree.edit.js"></script>
+    <script src="js/jquery.fancytree.dnd.js"></script>
+    <script src="js/jquery.fancytree.multi.js"></script>
+    <script src="js/TreeViewScript.js"></script>
+    <script src="js/cola.js"></script>
+
+    <script src="js/paoh.js" defer></script>
+    <!--end-->
+
+    <script src="js/reorder.v1.js"></script>
+    <script src="js/reorder_util.js"></script>
+    <!-- <script src="js/paoh-clustering.js"></script> -->
+</body>
+
+</html>

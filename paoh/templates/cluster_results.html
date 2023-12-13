@@ -1,0 +1,82 @@
+
+<div>
+    {{# loading }}
+    <div class="row ml-4 mb-4">
+        <h5>Loading, please wait... </h5>
+    </div>
+    {{/ loading }}
+    {{^ loading }}
+        {{# error }}
+        <div class="ml-4 mb-4">
+            <div class="row">
+                <h5>Error </h5>
+            </div>
+            <div class="row">
+                {{ text }}
+            </div>
+        </div>
+        {{/ error }}
+        {{^ error }}
+        <div class="ml-4 mb-4">
+            <div class="row">
+                <h5>Clusters information</h5>
+            </div>
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>cluster</th>
+                        <th>edge frequency</th>
+                        <th>node frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{# communities }}
+                    <tr>
+                        <td class="font-weight-bold">
+                            {{name}}
+                        </td>
+                        <td>
+                            {{edge_frequency}}
+                        </td>
+                        <td>
+                            {{node_frequency}}
+                        </td>
+                    </tr>
+                    {{/ communities }}
+                    {{^ communities }}
+                    <tr>
+                    <td colspan="3">
+                        No info.
+                        </td>
+                    </tr>
+                    {{/ communities }}
+                </tbody>
+            </table>
+        </div>
+        <div class="ml-4 mb-4">
+            <div class="row">
+                <h5>Cluster metrics</h5>
+            </div>
+            {{# metrics }}
+            <div class="row">
+                <div class="col-3 font-weight-bold">
+                    {{name}}
+                </div>
+                <div class="col-8">
+                    {{value}}
+                </div>
+            </div>
+            {{/ metrics }}
+            {{^ metrics }}
+            <div class="row">
+                No metrics.
+            </div>
+            {{/ metrics }}
+            {{/ error }}
+        </div>
+
+    {{/ loading }}
+    <div class="row ml-4 mb-4 dynClusterChart" style="display: none">
+        <canvas id="clusterResultsCanvas"> </canvas>
+    </div>
+</div>

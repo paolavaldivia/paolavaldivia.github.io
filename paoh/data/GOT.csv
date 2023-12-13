@@ -1,0 +1,87 @@
+BATTLE;HOUSE;YEAR;;REGION;ROLE
+1;Tully;298;Battle of the Golden Tooth;The Riverlands;defender
+2;Baratheon;298;Battle at the Mummer's Ford;The Stormlands;defender
+3;Tully;298;Battle of Riverrun;The Riverlands;defender
+4;Lannister;298;Battle of the Green Fork;The Westerlands;defender
+5;Lannister;298;Battle of the Whispering Wood;The Westerlands;defender
+6;Lannister;298;Battle of the Camps;The Westerlands;defender
+7;Darry;298;Sack of Darry;The Riverlands;defender
+8;Stark;299;Battle of Moat Cailin;The North;defender
+9;Stark;299;Battle of Deepwood Motte;The North;defender
+10;Stark;299;Battle of the Stony Shore;The North;defender
+11;Greyjoy;299;Battle of Torrhen's Square;The North;defender
+12;Stark;299;Battle of Winterfell;The North;defender
+13;Stark;299;Sack of Torrhen's Square;The North;defender
+14;Stark;299;Sack of Winterfell;The North;defender
+15;Lannister;299;Battle of Oxcross;The Westerlands;defender
+16;Baratheon;299;Siege of Storm's End;The Stormlands;defender
+17;Tully;299;Battle of the Fords;The Riverlands;defender
+18;Lannister;299;Sack of Harrenhal;The Westerlands;defender
+19;Lannister;299;Battle of the Crag;The Westerlands;defender
+20;Lannister;299;Battle of the Blackwater;The Westerlands;defender
+21;Lannister;299;Siege of Darry;The Westerlands;defender
+22;Lannister;299;Battle of Duskendale;The Westerlands;defender
+23;Brave Companions;299;Battle of the Burning Septry;;defender
+24;Stark;299;Battle of the Ruby Ford;The North;defender
+25;Brave Companions;299;Retaking of Harrenhal;;defender
+26;Stark;299;The Red Wedding;The North;defender
+27;Mallister;299;Siege of Seagard;The Riverlands;defender
+28;Night's Watch;300;Battle of Castle Black;The North;defender
+28;Baratheon;300;Battle of Castle Black;The Stormlands;defender
+29;Greyjoy;300;Fall of Moat Cailin;The North;defender
+31;Greyjoy;300;Retaking of Deepwood Motte;The North;defender
+32;Tyrell;300;Battle of the Shield Islands;The Reach;defender
+33;Greyjoy;300;Invasion of Ryamsport, Vinetown, and Starfish Harbor;The North;attacker
+34;Baratheon;300;Second Seige of Storm's End;The Stormlands;defender
+35;Baratheon;300;Siege of Dragonstone;The Stormlands;defender
+36;Tully;300;Siege of Riverrun;The Riverlands;defender
+37;Blackwood;300;Siege of Raventree;;defender
+1;Lannister;298;Battle of the Golden Tooth;The Westerlands;attacker
+2;Lannister;298;Battle at the Mummer's Ford;The Westerlands;attacker
+3;Lannister;298;Battle of Riverrun;The Westerlands;attacker
+4;Stark;298;Battle of the Green Fork;The North;attacker
+5;Stark;298;Battle of the Whispering Wood;The North;attacker
+5;Tully;298;Battle of the Whispering Wood;The Riverlands;attacker
+6;Stark;298;Battle of the Camps;The North;attacker
+6;Tully;298;Battle of the Camps;The Riverlands;attacker
+7;Lannister;298;Sack of Darry;The Westerlands;attacker
+8;Greyjoy;299;Battle of Moat Cailin;The North;attacker
+9;Greyjoy;299;Battle of Deepwood Motte;The North;attacker
+10;Greyjoy;299;Battle of the Stony Shore;The North;attacker
+11;Stark;299;Battle of Torrhen's Square;The North;attacker
+12;Greyjoy;299;Battle of Winterfell;The North;attacker
+13;Greyjoy;299;Sack of Torrhen's Square;The North;attacker
+14;Bolton;299;Sack of Winterfell;The North;attacker
+14;Greyjoy;299;Sack of Winterfell;The North;attacker
+15;Stark;299;Battle of Oxcross;The North;attacker
+15;Tully;299;Battle of Oxcross;The Riverlands;attacker
+16;Baratheon;299;Siege of Storm's End;The Stormlands;attacker
+17;Lannister;299;Battle of the Fords;The Westerlands;attacker
+18;Stark;299;Sack of Harrenhal;The North;attacker
+19;Stark;299;Battle of the Crag;The North;attacker
+20;Baratheon;299;Battle of the Blackwater;The Stormlands;attacker
+21;Darry;299;Siege of Darry;The Riverlands;attacker
+22;Stark;299;Battle of Duskendale;The North;attacker
+23;Brotherhood without Banners;299;Battle of the Burning Septry;;attacker
+24;Lannister;299;Battle of the Ruby Ford;The Westerlands;attacker
+25;Lannister;299;Retaking of Harrenhal;The Westerlands;attacker
+26;Frey;299;The Red Wedding;The Riverlands;attacker
+26;Bolton;299;The Red Wedding;The North;attacker
+27;Frey;299;Siege of Seagard;The Riverlands;attacker
+28;Free folk;300;Battle of Castle Black;;attacker
+28;Thenns;300;Battle of Castle Black;The North;attacker
+28;Giants;300;Battle of Castle Black;;attacker
+29;Bolton;300;Fall of Moat Cailin;The North;attacker
+30;Brave Companions;300;Sack of Saltpans;;attacker
+31;Baratheon;300;Retaking of Deepwood Motte;The Stormlands;attacker
+31;Karstark;300;Retaking of Deepwood Motte;The North;attacker
+31;Mormont;300;Retaking of Deepwood Motte;The North;attacker
+31;Glover;300;Retaking of Deepwood Motte;The North;attacker
+32;Greyjoy;300;Battle of the Shield Islands;The North;attacker
+33;Tyrell;300;Invasion of Ryamsport, Vinetown, and Starfish Harbor;The Reach;defender
+34;Baratheon;300;Second Seige of Storm's End;The Stormlands;attacker
+35;Baratheon;300;Siege of Dragonstone;The Stormlands;attacker
+36;Lannister;300;Siege of Riverrun;The Westerlands;attacker
+36;Frey;300;Siege of Riverrun;The Riverlands;attacker
+37;Bracken;300;Siege of Raventree;The Riverlands;attacker
+37;Lannister;300;Siege of Raventree;The Westerlands;attacker

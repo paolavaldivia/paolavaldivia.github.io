@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "name": "marieboucher-sample-dataset.pao",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "Contracts - Marie Boucher sample-dataset"
+    },
+    {
+      "name": "marieboucher-demo.pao",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "Contracts - Marie Boucher some fixed locations hypergraph"
+    },
+
+    {
+      "name": "vis_VAST_2009_2018.json",
+      "data-type": "PUB_HG",
+      "owner": "Master",
+      "description": "Publications - Vast 2014-2018 - Vispubdata"
+    },
+    {
+      "name": "vis_InfoVis_2009_2018.json",
+      "data-type": "PUB_HG",
+      "owner": "Master",
+      "description": "Publications - Infovis 2014-2018 - Vispubdata"
+    },
+    {
+      "name": "aviz.json",
+      "data-type": "PUB_HG",
+      "owner": "Master",
+      "description": "Publications - AVIZ teams and their collaborators"
+    },
+    {
+      "name": "ilda_hg.json",
+      "data-type": "PUB_HG",
+      "owner": "Master",
+      "description": "Publications - ILDA team and their collaborators"
+    },
+    {
+      "name": "aviz_ilda_hg.json",
+      "data-type": "PUB_HG",
+      "owner": "Master",
+      "description": "Publications - AVIZ and ILDA teams and their collaborators"
+    },
+    {
+      "name": "datasetTest.pao",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "dataset Tester"
+    },
+    {
+      "name": "ilda_Others.json",
+      "data-type": "PUB_HG",
+      "owner": "Master",
+      "description": "Publications - ILDA team and their collaborators"
+    },
+    {
+      "name": "test_MB_names_v2.1.0.json",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "Sample 2.0.1 format"
+    },
+    {
+      "name": "alliances_SXX.csv",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "Country alliances"
+    },
+    {
+      "name": "marieboucher-sample-dataset-enriched.pao",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "Contracts - Marie Boucher sample-dataset"
+    },
+    {
+      "name": "marieboucher-sample-dataset-enriched-more.pao",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "Contracts - Marie Boucher sample-dataset"
+    },
+    {
+      "name": "filtersample.2.1.0.json",
+      "data-type": "PUB",
+      "owner": "Master",
+      "description": "sample-dataset containing attribute for filtering"
+    }
+  ]
+}
+

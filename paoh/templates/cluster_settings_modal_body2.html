@@ -1,0 +1,55 @@
+<div>
+    {{ #data }}
+    <div class="container-fluid">
+        <div class="row mb-4">
+            <div class="col-md-10">
+                {{ description }}
+            </div>
+            <div class="col-md-2 text-right">
+                <div class="row  text-right  mb-2">
+                    <button id="btnCluster" type="button" class="btn btn-secondary">Cluster</button>
+                </div>
+                <div class="row  text-right mb-2" style="display: inline-block">
+                    <button id="btnDynCluster" type="button" class="btn btn-secondary">Dyn Cluster</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h5>Parameters</h5>
+        </div>
+        <div class="row mb-4">
+            <div class="w-100">
+                <table class="table" id="tblAutomaticClusteringParameters">
+                    <thead>
+                        <tr>
+                            <th style="width: 10%">Key</th>
+                            <th style="width: 20%">Value</th>
+                            <th style="width: 50%">Description</th>
+                            <th style="width: 20%;">Valid values</th>
+                        </tr>
+                    </thead>
+                    {{# parameters }}
+                    <tbody>
+                        <tr>
+                            <td>{{name}}</td>
+                            <td>
+                                <input type="{{ type }}" class="form-control clustering-parameter" id="parameter-{{name}}" value="{{ default }}">
+                            </td>
+                            <td>{{ description }}</td>
+                            <td>{{ default }}</td>
+                        </tr>
+                    </tbody>
+                    {{/ parameters }}
+                </table>
+            </div>
+        </div>
+
+        {{^ parameters }}
+        <div class="row">
+            No parameters.
+        </div>
+        {{/ parameters }}
+    </div>
+    
+</div>
+{{ /data }}

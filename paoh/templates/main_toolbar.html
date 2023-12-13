@@ -1,0 +1,674 @@
+<div class="firstLevel-toolbar" id="firstLevelT">
+    <div class="firstLevel-left wd-40">
+        <div class="menu">
+            <div id="Data">
+                <h2>Data</h2>
+            </div>
+            <div id="View">
+                <h2>View</h2>
+            </div>
+            <!--            <div id="Filters"><h2>Filters</h2></div>-->
+            <!--            <div id="Consolidated"><h2>Consolidated Knowledge</h2></div>-->
+            <div id="Search">
+                <h2>Search</h2>
+            </div>
+            <div id="Group" class="d-none">
+                <h2>Clustering</h2>
+            </div>
+            <div id="Clustering">
+                <h2>Clustering</h2>
+            </div>
+            <div id="Vistorian">
+                <h2>Vistorian</h2>
+            </div>
+            <div id="Dblp">
+                <h2>DBLP</h2>
+            </div>
+            <div id="Settings">
+                <h2>Settings</h2>
+            </div>
+            <div id="Developer">
+                <h2>Developer</h2>
+            </div>
+        </div>
+    </div>
+    <div class="firstLevel-center wd-20">
+        <div class="dataset-name " id="dsDescription">
+        </div>
+    </div>
+    <div class="firstLevel-right wd-40">
+    </div>
+</div>
+</div>
+<div class="secondLevel-toolbar" id="secondLevelT">
+    <!-- option inside Data label -->
+    <div class="secondLevel-box" id="DataBox">
+
+        <div class="dataset">
+            <p><i class="fas fa-database icon"></i>DATASET</p>
+
+            <button type="button" id="openMod" data-toggle="modal" data-target="#exampleLargeModal">
+                <img class="iconv" src="img/file-upload.png">
+            </button>
+            <input accept=".pao, .json, .csv, .bib" id="inputFileOpen" style="display: none" type="file" />
+            <a id="anchorSave" role="button" title="Save dataset locally">
+                <label>
+                    <span data-tooltip-top="Save dataset locally">
+                        <img class="iconv" src="img/file-download.png">
+                    </span>
+                </label>
+            </a>
+            <a class="" id="anchorSaveCanvas" role="button">
+                <button><img class="icon" src="img/camera-retro.png"></button>
+            </a>
+        </div>
+
+        <div class="Filterbox">
+            <p><i class="fas fa-filter icon"></i>FILTER</p>
+            <button data-tooltip-top="Reset filters" id="btnresettbsp">
+                <img class="icon" src="img/reset_2.png">
+            </button>
+            <button data-tooltip-top="Filter node" id="btnfiltertbsp">
+                <img class="icon2" src="img/node-filter.png">
+            </button>
+            <button data-tooltip-top="Filter edge" id="btnfilterremove">
+                <img class="icon2" src="img/edge_filter.png">
+            </button>
+        </div>
+
+        <div class="info " style="border-right: 1px solid black;">
+            <p><i class="fas fa-info-circle icon"></i>INFO</p>
+            <button data-tooltip-top="Show tooltip" id="btnToolTip" title="Show tooltip" type="button">
+                <img class="icon" src="img/comment-alt.png">
+            </button>
+            <button data-tooltip-top="Show special roles" id="btnRole" title="Show special roles">
+                <img class="icon" src="img/crown.png">
+            </button>
+        </div>
+        <div>
+            <p><i class="fas fa-star"></i> CHOOSE SYMBOL</p>
+            <!-- <p><i class="fas fa-crown"></i> CHOOSE SYMBOL</p> -->
+            <select class="symbol-change" id="symbolSelect" style="height: auto; margin-top:10px;" title="Change {symbol} role " disabled>
+                <option id="btnSimb-1" value="" selected>--none--</option>
+                <option id="btnSimb0" value="star">star</option>
+                <option id="btnSimb1" value="rectangle">rectangle</option>
+                <option id="btnSimb2" value="circle">circle</option>
+                <option id="btnSimb3" value="cross">cross</option>
+                <option id="btnSimb4" value="triangle">triangle</option>
+                <option id="btnSimb5" value="reverseTriangle">reverseTriangle</option>
+                <option id="btnSimb6" value="diamond">diamond</option>
+                <option id="btnSimb7" value="diamondSquare">diamondSquare</option>                
+            </select>
+        </div>
+        <!--marco-->
+        <div style="display: none">
+            <p>Group by</p>
+            <select id="GroupBy" style="...">
+                <option id="VoidOption" selected value="VoidOption"></option>
+                <option id="CommunityOption" value="CommunityOption">Community</option>
+            </select>
+
+            <button id="btnResetGrouping">Reset</button>
+        </div>
+    </div>
+
+    <div class="secondLevel-box" id="ViewBox" style="display:none">
+        <div class="max-width-m border-right-light" id="MinHyperedges">
+            <p class="hyperedge-change">Drips</p>
+            <span id="view-drips-node" class="node-change">Use when {node} has less than</span>
+            <input aria-describedby="btnGroupAddon" class="input max-width-s" id="filterDegree" max="" min="1"
+                placeholder="2" title="Filter minimum degree" type="number" value="2">
+            <span id="view-drips-edge" class="hyperedge-change">{hyperedge}s</span>
+        </div>
+
+        <div id="ConsolidateKnowledge">
+            <p>Consolidated Knowledge</p>
+
+            <button style="margin-bottom:5px;" id="btnConsolidateSuggestions" title="consolidateSuggestions"
+                type="button" class="btn-light">Consolidate suggestions</button>
+            <br>
+            <a id="anchorSaveReport" role="button" title="Save consolidated knowledge report locally">
+                <label>
+                    <button id="btnExportConsolidate" title="Export" type="button" class="btn-light">Export</button>
+                </label>
+            </a>
+        </div>
+
+        <!--        <div class="max-width-m border-right-light" >-->
+        <!--            <p><span class="padding-right-sm node-change">Statistics</span></p>-->
+        <!--            <div class="statisticsSel" id="tsStatistics">-->
+        <!--                <select class="statisticsSelMenu" id="selectTsStatistic" title="Change time-slot statistic"></select>-->
+        <!--            </div>-->
+        <!--            <div class="statisticsSel" id="tsStatisticsLeft">-->
+        <!--                <select class="node-change statisticsSelMenu" id="selectTsStatisticLeft" title="Change {node} statistic"></select>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+        <div class="border-right-light" id="nodeGrouping">
+            <p><span id="view-group" class="padding-right-sm node-change">Group {Node}s</span></p>
+            <!--            <div> by <select class="node-change" id="groupFirstLevel" style="height: auto;"-->
+            <!--                        title="Change {node} ordering">-->
+            <!--                </select>-->
+            <!--            </div>-->
+            <div class="mt-2">
+                <!--                <button id="btnShowComDetail" class="btn-light btn-sm"> Show details </button>-->
+                <button id="btnExtendClustering" class="btn-light btn-sm"> Extend Clustering</button>
+                <button id="btnAggregate" class="btn-light btn-sm"> Aggregate</button>
+            </div>
+            <!--            <div> then by-->
+            <!--                <select class="node-change" id="groupSecondLevel" style="height: auto;"-->
+            <!--                        title="Change {node} ordering">-->
+            <!--                    <option class="group-change" id="optSortDefaultSecond" value="group">{Group}</option>-->
+            <!--                </select>-->
+            <!--            </div>-->
+        </div>
+
+        <div id="nodeOrdering border-right-light">
+            <p class="node-change">Sort</p>
+            <div><span id="view-sort-node" class="node-change"> {Node}s by </span>
+                <select class="node-change" id="orderSelect" title="Change {node} ordering">
+                    <option id="btnOrd0" value="id">Id</option>
+                    <option class="hyperedge-change" id="btnOrd6" selected value="appearance">Appearance (early
+                        {hyperedge} first)
+                    </option>
+                    <option class="hyperedge-change" id="btnOrd2" value="degree">Degree (# of {hyperedge}s)
+                    </option>
+                    <option class="group-change" id="btnOrd7" value="group">Group (latest)</option>
+                    <option id="btnOrd1" value="alpha">Alphabetical</option>
+                    <!--<option id="leaf">Leaf</option>-->
+                    <option id="btnOrd4" value="barycentric">Barycentric (reduces line length)</option>
+                    <option id="btnOrd5" value="spectral">Spectral (reduces line length)</option>
+                    <option id="btnOrd8" value="rcm">Reverse Cuthill Mckee (reduces line length)</option>
+                </select>
+                <button class="group-change" data-tooltip-top="Reverse order" id="btn-reverse-sort"
+                    title="Reverse order">
+                    <i class="fas fa-sort-amount-up"></i>
+                </button>
+            </div>
+            <div><span id="view-sort-edge" class="hyperedge-change"> {Hyperedge}s by </span>
+                <select class="ts-change hyperedge-change" id="orderEdgesSelect_"
+                    title="Change {hyperedge}s ordering inside a {time slot}">
+                    <option id="btnEdgeOrd0_" value="length">Line length</option>
+                    <option class="hyperedge-change" id="btnEdgeOrd1_" selected value="appearanceEdge">
+                        Appearance (early {hyperedge} first)
+                    </option>
+                </select>
+            </div>
+
+
+        </div>
+
+        <!--        &lt;!&ndash;        TODO: maybe change place&ndash;&gt;-->
+        <!--        <div id="consensus-slider-div">-->
+        <!--            <p>Consensus slider</p>-->
+        <!--            <input id="consensus-slider" type="range" min="0" max="0" value="0" class="slider" id="myRange">-->
+        <!--            <span id="consolidate-threshold"></span>-->
+        <!--        </div>-->
+
+        <div id="color_" style="border-right: 1px solid black;">
+            <p><i class="fas fa-paint-brush"></i>Color</p>
+            <!--            <div>-->
+            <!--            <span class="node-change"> {Node}s  by </span>-->
+            <!--            <select class="node-change" id="selectColorNode" data-tooltip-top="Change {node} color" title="Change {node} color">-->
+            <!--            </select>-->
+            <!--            </div>-->
+            <div>
+                <button class="mt-1 group-change" data-tooltip-top="Color by group" id="btnheatmapbsp"
+                    title="Show group colors in the background">
+                    <img class="iconv" src="img/align-justify.png">
+                </button>
+                <button class="btn btn-light btn-default btn-center" data-tooltip-top="Color dots by group"
+                    id="btnColorGroup" role="button">
+                    <img class="iconv" src="img/tint.png">
+                </button>
+                <button data-tooltip-top="Alternate colors" id="btnAlternateColors" title="Alternate edge colors">
+                    <img class="icon" src="img/alternate-colors.png">
+                </button>
+                <button data-tooltip-top="Color edge by role" id="btnColorEdgeByRole" title="Color edge by role" style="visibility: hidden;">
+                    <img class="icon" src="img/crown.png">
+                </button>
+            </div>
+        </div>
+
+        <div id="Technique">
+            <p>Technique</p>
+            <button data-tooltip-top="Node link" id="btnnodelinksp" title="Toogle node link technique">
+                <img class="icon" src="img/node-link.png">
+            </button>
+            <button data-tooltip-top="PaohVis" id="btnbiofabricbsp" title="Toogle PaohVis technique">
+                <img class="iconv" src="img/paohvis.png">
+            </button>
+        </div>
+
+        <div id="visualization">
+            <p>Visualization</p>
+            <button data-tooltip-top="Bind NL" id="btnbindNLtbsp" style="display: none; float: left"
+                title="Bind node-link positions to node name positions">
+                <img class="icon" src="img/node-link.png">
+            </button>
+            <button data-tooltip-top="Run NL Layout" id="btnRunLayout" style="display: none; float: left"
+                title="Run node-link layout">
+                <img class="icon" src="img/align-justify.png">
+            </button>
+            <button data-tooltip-top="Toogle hypergraph" id="btnShowHyper" title="Toogle hypergraph/traditional graph">
+                <img class="iconv" src="img/hypergraph.png">
+            </button>
+            <button data-tooltip-top="Pack" id="btnEdgePacking" style="display: none; float: left"
+                title="Pack {hyperedge}s inside a {time slot}">
+                <img class="icon" src="img/pack.png">
+            </button>
+            <button data-tooltip-top="Repeat" id="btnRepeatArch" style="display: none; float: left"
+                title="Pack {hyperedge}s inside a {time slot}">
+                <img class="icon" src="img/repeatUnion.png">
+            </button>
+        </div>
+        <div class="aggregateTime">
+            <p>Option</p>
+            <button data-tooltip-top="Aggregate Time Slots" id="btnAggregateTime" title="Aggregate Time Slots">
+                Aggregated
+            </button>
+        </div>
+
+    </div>
+    <div class="secondLevel-box" id="SearchBox" style="display:none">
+        <div id="AdvancedSearchBox">
+
+            <div id="advancedSearchContainer" class="advancedSearchContainer ">
+                <div id="nodesAndHyperEdgeContainer">
+                    <Button id="resetAdvancedSearch" class="btn-light" style="float:right">Reset</Button>
+                    <Button id="openNodesButton" class="btn-light">Nodes</Button><br>
+                    <Button id="openEdgesButton" class="btn-light">Hyperedges</Button>
+                </div>
+                <div class="searchContainer search-box" id="searchNodeContainer">
+                    <div class="F-left">
+                        <input class="node-change input" id="searchName" placeholder="{node} name" title="Search {node}"
+                            type="search">
+                    </div>
+                    <div class="F-left"  style="margin-left: 4px;">
+                        <button data-tooltip-low="Search" id="btnSearchName" title="Search {node}" type="button"><img
+                                class="icon1" src="img/search.png"></button>
+                    </div>
+                </div>
+                <div class="searchContainer search-box" id="searchHyperEdgeContainer">
+                    <div class="F-left">
+                        <input class="hyperedge-change input" id="searchEdge" placeholder="{hyperedge} name" title="Search {hyperedge}"
+                            type="search">
+                    </div>
+                    <div class="F-left" style="margin-left: 4px;">
+                        <button data-tooltip-low="Search" id="btnSearchEdge" title="Search {hyperedge}" type="button"><img
+                                class="icon1" src="img/search.png"></button>
+                    </div>
+                </div>      
+    
+                <div id="divForStar"></div>
+            </div>
+        </div>
+    </div>
+   <!--  </div> -->
+    <div class="secondLevel-box" id="DblpBox" style="display:none">
+        <div id="menuDblpSearch" class="secondLevel-box-menu">
+            <div id="labelAutomaticClustering" class="secondLevel-menu">
+                <p>Search</p>
+            </div>
+            <div>
+                <input type="search" id="searchDblpAuthor" list="dblpHitsResult" placeholder="search author into DBLP system">
+                <datalist id="dblpHitsResult"></datalist>
+            </div>
+        </div>
+    </div>
+    
+    <div class="secondLevel-box" id="GroupBox" style="display:none">
+        <div id="menuAutomaticClustering" class="secondLevel-box-menu cursor-pointer">
+            <div id="labelAutomaticClustering" class="secondLevel-menu">
+                <p>Automatic</p>
+            </div>
+            <div>
+
+                <select aria-describedby="btnGroupAddon" class="btn-light" class="" id="selectClustering"
+                    title="Select cluster method">
+                    <option id="clustDefault" selected value="">None</option>
+                </select>
+
+            </div>
+        </div>
+        <div id="menuMixedInitiative" class="secondLevel-box-menu cursor-pointer">
+            <div id="labelMixedInitiativeClustering" class="secondLevel-menu">
+                <p>Mixed Initiative</p>
+            </div>
+            <!-- DA CANCELLARE ?!?
+                 <div>
+
+                <div id="mixedInitiativeCheckboxes">
+                    <div>Options</div>
+                    <div style="display:inline">
+                        <input type="radio" id="show-persons" name="type-view" value="persons-view" checked>
+                        <label for="show-persons">Persons view &nbsp; &nbsp;</label>
+                    </div>
+
+                    <div id="color-overlap-communities-div" style="display:inline">
+                        <input type="checkbox" id="color-overlap-communities" name="color-overlap-communities">
+                        <label for="color-overlap-communities">Show prior knowledge overlaps</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="aggregated-view" name="type-view" value="aggregated-view">
+                        <label for="aggregated-view">Aggregated View</label>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="" id="divGroupEachTs">
+            <p>Create group in all time slots</p>
+            <input id="groupNameEts" placeholder="Group name">
+            <button class="btn-light" id="createGroupForEachTs" title="Save new group">
+                Create group
+            </button>
+        </div>
+        <div class="" style="display: none">
+            <p>Save data set</p>
+            <input id="datasetName" placeholder="Data set name">
+            <button class="btn-light" id="saveNewDataset" title="Save data set">
+                Save dataset
+            </button>
+        </div>
+    </div>
+    <div class="secondLevel-box" id="ClusteringBox" style="display:none">
+        <div id="" class="secondLevel-box-menu">
+            <div id="labelInitiativeClustering" class="secondLevel-menu">Initiative methods</div>
+            <div class="d-inline-flex">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" id="pills-automatic-tab"
+                            style="border-top-right-radius: 0; border-bottom-right-radius: 0; min-width:100px;     border-right: 0px;"
+                            data-toggle="pill" href="#pills-automatic" role="tab" aria-controls="pills-automatic"
+                            aria-selected="true">Automatic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" id="pills-mixed-tab"
+                            style="border-top-left-radius: 0; border-bottom-left-radius: 0; min-width:100px;" data-toggle="pill"
+                            href="#pills-mixed" role="tab" aria-controls="pills-mixed" aria-selected="false">Mixed</a>
+                    </li>
+                </ul>
+                <div id="mixedInitiativeClusteringCheckboxes" class="ml-3 d-none">
+                    <div>Options</div>
+                    <div style="display:inline">
+                        <input type="radio" id="show-persons" name="type-view" value="persons-view" checked>
+                        <label for="show-persons">Persons view &nbsp; &nbsp;</label>
+                    </div>
+                
+                    <div id="color-overlap-communities-div" style="display:inline">
+                        <input type="checkbox" id="color-overlap-communities" name="color-overlap-communities">
+                        <label for="color-overlap-communities">Show prior knowledge overlaps</label>
+                    </div>
+                
+                    <div>
+                        <input type="radio" id="aggregated-view" name="type-view" value="aggregated-view">
+                        <label for="aggregated-view">Aggregated View</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!--  <div id="menuAutomaticClustering" class="secondLevel-box-menu cursor-pointer">
+            <div id="labelAutomaticClustering" class="secondLevel-menu">
+                <p>Automatic</p>
+            </div>
+            <div>
+    
+                <!-- <select aria-describedby="btnGroupAddon" class="btn-light" class="" id="selectClustering"
+                        title="Select cluster method">
+                        <option id="clustDefault" selected value="">None</option>
+                    </select> 
+    
+            </div>
+        </div> -->
+        <!--<div id="menuMixedInitiative" class="secondLevel-box-menu cursor-pointer">
+            <div id="labelMixedInitiativeClustering" class="secondLevel-menu">
+                <p>Mixed Initiative</p>
+            </div>
+            <div>
+    
+                <!-- <div id="mixedInitiativeCheckboxes">
+                    <div>Options</div>
+                    <div style="display:inline">
+                        <input type="radio" id="show-persons" name="type-view" value="persons-view" checked>
+                        <label for="show-persons">Persons view &nbsp; &nbsp;</label>
+                    </div>
+    
+                    <div id="color-overlap-communities-div" style="display:inline">
+                        <input type="checkbox" id="color-overlap-communities" name="color-overlap-communities">
+                        <label for="color-overlap-communities">Show prior knowledge overlaps</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="aggregated-view" name="type-view" value="aggregated-view">
+                        <label for="aggregated-view">Aggregated View</label>
+                    </div>
+                </div> 
+            </div>
+        </div>-->
+    
+        <!-- <div class="" id="divGroupEachTs">
+            <p>Create group in all time slots</p>
+            <input id="groupNameEts" placeholder="Group name">
+            <button class="btn-light" id="createGroupForEachTs" title="Save new group">
+                Create group
+            </button>
+        </div>
+        <div class="" style="display: none">
+            <p>Save data set</p>
+            <input id="datasetName" placeholder="Data set name">
+            <button class="btn-light" id="saveNewDataset" title="Save data set">
+                Save dataset
+            </button>
+        </div> -->
+    </div>
+    <!-- Start of Vistorian Second level Menu-->
+    <div class="secondLevel-box" id="VistorianBox" style="display:none">
+        <div>
+            <p>Node link</p>
+            <button data-tooltip-top="Node link" id="btnNodelinkVistorian" title="Node link visualization">
+                <img class="icon-bg" src="img/node-link.png">
+            </button>
+        </div>
+        <div>
+            <p>Matrix</p>
+            <button data-tooltip-top="Matrix" id="btnMatrixVistorian" title="Matrix visualization">
+                <img class="icon-bg" src="img/matrixVis.svg">
+            </button>
+        </div>
+        <div>
+            <p>Dynamic Ego</p>
+            <button data-tooltip-top="Dynamic Ego" id="btnDynamicEgoVistorian" title="Dynamic Ego visualization">
+                <img class="icon-bg" src="img/dynamicEgoVis.svg">
+            </button>
+        </div>
+    </div>
+
+    <div class="secondLevel-box" id="SettingsBox" style="display:none">
+        <div class="">
+            <p>Edge misc</p>
+            <div aria-label="Style" class="btn-group btn-group-sm mr-2" role="group">
+                <button class="btn btn-light btn-default" id="btnSty0" type="button">Solid</button>
+                <button class="btn btn-light btn-default" id="btnSty1" type="button">5-dash</button>
+                <button class="btn btn-light btn-default" id="btnSty2" type="button">Dash</button>
+            </div>
+        </div>
+        <div class="">
+            <p>Theme</p>
+            <select aria-describedby="btnGroupAddon" class="" id="selectTheme" title="Change theme"></select>
+        </div>
+        <div class="">
+            <p>Background intensity</p>
+            <input id="rngIntensity" title="Intensity" type="range" />
+        </div>
+        <div class="">
+            <p class="node-change">{Node} misc</p>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="showDegree" type="checkbox" value="">
+                <label class="form-check-label" for="showDegree">
+                    Show Degree
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="showBtnTooltip" type="checkbox" value="">
+                <label class="form-check-label" for="showBtnTooltip">
+                    Show Button Tooltip
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="hyperedgesSplat" type="checkbox" value="">
+                <label class="form-check-label" class="node-change hyperedge-change" for="hyperedgesSplat">
+                    Spot {Node}s Hyperedges
+                </label>
+            </div>
+        </div>
+        <div>
+            <p>Interaction misc</p>
+            <input class="form-check-input" id="andSelection" type="checkbox" value="">
+            <label class="form-check-label" for="andSelection">
+                Intersect Filters
+            </label>
+            </br>
+            <input class="form-check-input" id="showhighlightselect" type="checkbox" value="">
+            <label class="form-check-label" for="showhighlightselect">
+                Show highlight/select buttons
+            </label>
+        </div>
+        <div>
+            <p>Node misc</p>
+            <input class="form-check-input" id="nodeColorAsEdge" type="checkbox" value="">
+            <label class="node-change form-check-label" for="nodeColorAsEdge">
+                {Node} Color as Edge
+            </label>
+            </br>
+            <input class="form-check-input" id="hyperedgesStronger" type="checkbox" value="">
+            <label class="form-check-label" for="hyperedgesStronger">
+                <span class="hyperedge-change">Spot {Hyperedge}s</span>
+            </label>
+        </div>
+    </div>
+
+    <div class="secondLevel-box" id="DeveloperBox" style="display:none">
+        <div class="Technique">
+            <p>Technique</p>
+            <!--            <button data-tooltip-top="PaohVis" id="btnbiofabricbsp" title="Toogle PaohVis technique">-->
+            <!--                <img class="iconv" src="img/paohvis.png">-->
+            <!--            </button>-->
+            <button data-tooltip-top="Curves" id="btncurvesbsp" title="Toogle curves technique">
+                <img class="iconv" src="img/curves.png">
+            </button>
+            <!--            <button data-tooltip-top="Node link" id="btnnodelinksp" title="Toogle node link technique">-->
+            <!--                <img class="icon" src="img/node-link.png">-->
+            <!--            </button>-->
+            <button data-tooltip-top="Show edge splatting" id="btnsplatbsp" title="Toogle splat technique">
+                <img class="icon" src="img/splat.png">
+            </button>
+        </div>
+        <div class="Options">
+            <p>Option</p>
+            <!--            <button data-tooltip-top="Bind NL" id="btnbindNLtbsp" style="display: none; float: left"-->
+            <!--                    title="Bind node-link positions to node name positions">-->
+            <!--                <img class="icon" src="img/node-link.png">-->
+            <!--            </button>-->
+            <button data-tooltip-top="Edge splatting" id="btnInterleaving" style="display: none; float: left"
+                title="Interleaving Edge Splatting">
+                <img class="icon" src="img/splat.png">
+            </button>
+        </div>
+        <div class="Settings">
+            <p>Settings</p>
+            <!-- 
+            <button type="button" id="btnOpenMdl" data-toggle="modal" data-target="#mdlSettings" title="settings">
+                <i class="fas fa-cog fa-2x"></i>
+            </button> -->
+
+            <label for="txtAleclustAddress">Aleclust uri</label>
+            <form method="POST" action="update_aleclust_uri.php">
+                <div class="input-group mb-3">
+                    <input type="form-control" id="txtAleclustAddress" name="aleclust_uri" value="" readonly>
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" id="btnEditAleclustAddress" type="button" title="edit"><i
+                                class="fas fa-edit"></i></button>
+                        <button class="btn btn-success d-none" id="btnSaveAleclustAddress" type="submit" title="save"><i
+                                class="fas fa-save"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!--<div id="toolBarSettings" style="display: none">-->
+
+    <!--    <a class="btn btn-light btn-default btn-center" id="sideNavButton" role="button">-->
+    <!--        <button><img class="icon1" src="img/cog.png"></button>-->
+    <!--    </a>-->
+    <!--    <button id="btn-toolbar-visibility">-->
+    <!--        <span class="toolbar-toogle toolbar-visible" id="icon-toogle-visibility"></span>-->
+    <!--    </button>-->
+    <!--</div>-->
+
+    <!-- old toolbar -->
+    <div class="toolbar" id="toolbar" style="display: none">
+        <div class="main-toolbar">
+            <div class="first-row toolbar-row">
+                <!-- if removed crashed -->
+                <button class="btn btn-light btn-default" id="btnlaberlsbsp" style="display: none" type="button">
+                    Labels
+                </button>
+            </div>
+            <div class="secondary-rows toolbar-row">
+                <ul class="toolbar-ul menu-group interaction-group">
+                    <!-- three button if removed, paohvis chrashed -->
+                    <li class="icon-important" id="highlightGroup" style="display: none">
+                        <div class="icon">
+                            <button class="btn btn-light btn-default btn-center" id="btnhighlightbsp" role="button"
+                                title="Enable highlighting"><span class="icon-img highlight"> </span></button>
+                            <div class="icon-text">Highlight</div>
+                        </div>
+                    </li>
+                    <li class="icon-important" id="selectGroup" style="display: none">
+                        <div class="icon">
+                            <button class="btn btn-light btn-default btn-center" id="btnselectbsp" role="button"
+                                title="Enable selecting"><span class="icon-img select"> </span></button>
+                        </div>
+                    </li>
+                    <li class="icon-important" style="display: none">
+                        <div class="icon">
+                            <button class="btn btn-light btn-default btn-center" id="btnlinegraphbsp" role="button"
+                                title="Show Linegraph"><span class="icon-img linegraph"> </span></button>
+                            <div class="icon-text">Line graph</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- end of Attention div -->
+        </div>
+    </div>
+</div>
+
+<!-- MODAL SELECT DATASET -->
+<div class="modal left hide fade in" id="exampleLargeModal" data-keyboard="false" data-backdrop="static" tabindex="-1"
+    role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content" id="modal-content">
+            <div class="modal-header" id="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Select Dataset</h5>
+                <button type="button" id="closeMod" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modal-body">
+            </div>
+            <div class="modal-footer" id="modal-footer">
+                <label id="submitApprove" for="inputFileOpen" class="btn btn-primary">
+                    Import Dataset </span>
+                </label>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MODAL default -->

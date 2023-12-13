@@ -1,0 +1,32 @@
+<div>
+    <div class="side-layout align-base">
+        <h4 class="mixed-initiative-title">
+            Algorithms ranking
+        </h4>
+        <span> (based on how well they matched the prior knowledge)</span>
+    </div>
+    {{# loading }}
+    <div class="row ml-4 mb-4">
+        <h5>Loading, please wait... </h5>
+    </div>
+    {{/ loading }}
+    {{^ loading }}
+        {{# error }}
+        <div class="ml-4 mb-4">
+            <div class="row">
+                <h5>Error </h5>
+            </div>
+            <div class="row">
+                {{ text }}
+            </div>
+        </div>
+        {{/ error }}
+        {{^ error }}
+    <div class="row w-100" id="outputEnsemble">
+    </div>
+    {{/ error }}
+    {{/ loading }}
+<!--    <div class="row ml-4 mb-4 dynClusterChart">-->
+<!--        <canvas id="clusterResultsCanvas"> </canvas>-->
+<!--    </div>-->
+</div>

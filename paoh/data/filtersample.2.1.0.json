@@ -1,0 +1,335 @@
+{
+	"metadata":{
+		"format": "2.1.0",
+		"graph type": "bipartite",
+		"name": "name",
+		"nodes": "nodes",
+		"links": "links",
+		"time_slot": "an",
+		"entity_type": "entity_type",
+		"source_entity_type": "document",
+		"target_entity_type": "marchand",
+		"community": ["gender", "family", "profession"],
+		"measures": ["age", "years_of_experience"],
+		"roles": ["role", "social_role"]
+	},
+	"nodes": [
+	{
+		"id":0,
+		"entity_type":"marchand",
+		"name":"Roled Elise",
+		"gender": "female",
+		"profession": ["researcher", "researcher", null, "researcher"],
+		"family": ["Boucher", "Boucher", null, "Boucher"],
+		"age": [29,30,31,32]
+	},
+	{
+		"id":5,
+		"entity_type":"marchand",
+		"name":"John",
+		"family": ["Legrand", "Legrand", "Legrand","Legrand"],
+		"gender": "male",
+		"profession": ["teacher","teacher","teacher",null]
+	},
+	{
+		"id":2,
+		"entity_type":"marchand",
+		"name":"Hubert",
+		"family": ["Boucher","Boucher","Boucher","Boucher"],
+		"gender": "male",
+		"profession": ["student", "student" , "student","Work1"],
+		"age": [45,46,47,48]
+	},
+	{
+		"id":7,
+		"entity_type":"marchand",
+		"name":"Antoine",
+		"family": ["Dupont","Dupont","Dupont","Dupont"],
+		"gender": "male",
+		"profession": ["student","student","student","Work1"],
+		"age": [21,22,23,24]
+	},
+	{
+		"id":6,
+		"entity_type":"marchand",
+		"name":"Joseph",
+		"family": ["Boucher","Boucher", "Team1","Team1"],
+		"profession": ["researcher","teacher","Work1","Work2"],
+		"gender": "male",
+		"age": [18,19,20,21]
+	},
+	{
+		"id":1,
+		"entity_type":"marchand",
+		"name":"Jacques",
+		"family": ["Legrand","Legrand","Team2",null],
+		"gender": "unknown",
+		"profession": ["researcher","researcher","Work2",null],
+		"age": [34,35,36,37],
+		"gender": "unknown"
+	},
+	{
+		"id":3,
+		"entity_type":"marchand",
+		"name":"Roze",
+		"family": [null,"Boucher","Boucher","Boucher"],
+		"profession": [null,"teacher","teacher","teacher"],
+		"gender": "female",
+		"age": [43,44,45,46]
+	},
+	{
+		"id":4,
+		"entity_type":"marchand",
+		"name":"Vallet",
+		"family": [null, "Dupont","Dupont","Dupont"],
+		"profession": [null,"student","student","Work1"],
+		"age": [50,51,52,53],
+		"gender": "unknown"
+	},
+	{
+		"id":9,
+		"entity_type":"marchand",
+		"name":"Claude",
+		"gender": "female",
+		"family": [null,null,"Boucher","Boucher"],
+		"profession": [null,null,"student","student"],
+		"years_of_experience": [6,7,8,9]
+	},
+	{
+		"id":10,
+		"entity_type":"marchand",
+		"name":"Guillaume",
+		"family": [null, null,"Legrand","Legrand"],
+		"profession": [null,null,"student","Work2"],
+		"age": [52,53,54,55],
+		"gender": "male"
+	},
+	{
+		"id":11,
+		"entity_type":"marchand",
+		"name":"Madeleine",
+		"family": [null,null,"Legrand","Legrand"],
+		"profession":[null,null,"researcher","researcher"],
+		"years_of_experience": [7,8,9,10],
+		"gender": "female"
+	},
+	{
+		"id":8,
+		"entity_type":"marchand",
+		"name":"Philippe"
+	},
+	{
+		"id":12,
+		"entity_type":"marchand",
+		"name":"Renexent"
+	},
+	{
+		"id":"_e_0",
+		"ts":1,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_1",
+		"ts":1,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_2",
+		"ts":1,
+		"entity_type":"document"
+		},
+	{
+		"id":"_e_3",
+		"ts":1,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_4",
+		"ts":1,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_5",
+		"ts":1,
+		"entity_type":"cdocument"
+	},
+	{
+		"id":"_e_6",
+		"ts":1,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_7",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_8",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_9",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_10",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_11",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_12",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_13",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_14",
+		"ts":2,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_15",
+		"ts":0,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_16",
+		"ts":0,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_17",
+		"ts":0,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_18",
+		"ts":0,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_19",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_20",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_21",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_22",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_23",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_24",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_25",
+		"ts":3,
+		"entity_type":"document"
+	},
+	{
+		"id":"_e_26",
+		"ts":3,
+		"entity_type":"document"
+	}
+	],
+	
+	"links":[
+	{"source":"_e_0","target":0,"ts":1,"role": "witness"},
+	{"source":"_e_0","target":2,"ts":1,"role": "signer"},
+	{"source":"_e_1","target":0,"ts":1},
+	{"source":"_e_1","target":1,"ts":1},
+	{"source":"_e_2","target":0,"ts":1},
+	{"source":"_e_2","target":3,"ts":1},
+	{"source":"_e_3","target":0,"ts":1},
+	{"source":"_e_3","target":4,"ts":1,"role": "signer"},
+	{"source":"_e_4","target":5,"ts":1},
+	{"source":"_e_4","target":7,"ts":1},
+	{"source":"_e_5","target":5,"ts":1},
+	{"source":"_e_5","target":6,"ts":1,"role": "signer"},
+	{"source":"_e_6","target":4,"ts":1},
+	{"source":"_e_6","target":5,"ts":1,"role": "signer"},
+	{"source":"_e_7","target":0,"ts":2},
+	{"source":"_e_7","target":5,"ts":2},
+	{"source":"_e_7","target":6,"ts":2,"role": "signer"},
+	{"source":"_e_8","target":0,"ts":2},
+	{"source":"_e_8","target":1,"ts":2},
+	{"source":"_e_9","target":0,"ts":2},
+	{"source":"_e_9","target":3,"ts":2},
+	{"source":"_e_10","target":0,"ts":2},
+	{"source":"_e_10","target":2,"ts":2},
+	{"source":"_e_10","target":3,"ts":2},
+	{"source":"_e_10","target":4,"ts":2},
+	{"source":"_e_10","target":5,"ts":2},
+	{"source":"_e_11","target":0,"ts":2},
+	{"source":"_e_11","target":5,"ts":2,"role": "signer"},
+	{"source":"_e_11","target":7,"ts":2,"role": "signer"},
+	{"source":"_e_11","target":8,"ts":2,"role": "witness"},
+	{"source":"_e_11","target":9,"ts":2},
+	{"source":"_e_12","target":9,"ts":2},
+	{"source":"_e_12","target":10,"ts":2},
+	{"source":"_e_13","target":10,"ts":2},
+	{"source":"_e_13","target":11,"ts":2},
+	{"source":"_e_14","target":10,"ts":2,"role": "witness"},
+	{"source":"_e_14","target":11,"ts":2},
+	{"source":"_e_14","target":12,"ts":2},
+	{"source":"_e_15","target":0,"ts":0},
+	{"source":"_e_15","target":2,"ts":0},
+	{"source":"_e_16","target":0,"ts":0},
+	{"source":"_e_16","target":1,"ts":0},
+	{"source":"_e_17","target":5,"ts":0},
+	{"source":"_e_17","target":7,"ts":0},
+	{"source":"_e_18","target":5,"ts":0},
+	{"source":"_e_18","target":6,"ts":0},
+	{"source":"_e_19","target":0,"ts":3},
+	{"source":"_e_19","target":10,"ts":3},
+	{"source":"_e_20","target":0,"ts":3},
+	{"source":"_e_20","target":11,"ts":3},
+	{"source":"_e_20","target":9,"ts":3},
+	{"source":"_e_21","target":0,"ts":3},
+	{"source":"_e_21","target":9,"ts":3},
+	{"source":"_e_21","target":10,"ts":3},
+	{"source":"_e_21","target":12,"ts":3},
+	{"source":"_e_22","target":5,"ts":3},
+	{"source":"_e_22","target":7,"ts":3,"role": "witness"},
+	{"source":"_e_23","target":5,"ts":3},
+	{"source":"_e_23","target":6,"ts":3,"role": "witness"},
+	{"source":"_e_24","target":2,"ts":3},
+	{"source":"_e_24","target":3,"ts":3},
+	{"source":"_e_24","target":4,"ts":3},
+	{"source":"_e_24","target":5,"ts":3},
+	{"source":"_e_24","target":7,"ts":3},
+	{"source":"_e_24","target":8,"ts":3},
+	{"source":"_e_24","target":9,"ts":3},
+	{"source":"_e_25","target":2,"ts":3},
+	{"source":"_e_25","target":3,"ts":3},
+	{"source":"_e_26","target":9,"ts":3},
+	{"source":"_e_26","target":10,"ts":3}
+	]
+}

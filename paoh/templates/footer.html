@@ -1,0 +1,65 @@
+    <div class="footer-left">
+        <div class="ts-Width">
+            <div class="F-left footer-text">
+                <p id="f-ts-width"  class="ts-change">{Time slot} width</p>
+            </div>
+            <div class="F-left">
+                <span class="shrink" id="ts-decrease" style="display: none"></span>
+            </div>
+            <div class="F-left slider">
+                <input id="tsWidthSlider" max="5" min="0.2" step="0.02" type="range" value="2.0">
+            </div>
+            <div class="F-left" style="display: none">
+                <span class="expand" id="ts-increase"></span>
+            </div>
+            <div class="F-left">
+                <button data-tooltip-top="Fit time slot"
+                        id="zoom-fit-ts"
+                        title="Try to fit the {time slot}s to the available horizontal screen space">
+                    <img class="icon" src="img/arrows-alt-h.png">
+                </button>
+            </div>
+        </div>
+        <div class="node-height">
+            <div class="F-left footer-text">
+                <p id="f-node-height" class="node-change">{Node} height</p>
+            </div>
+            <div class="F-left">
+                <span class="zoom-node-minus" id="node-decrease" style="display: none"></span>
+            </div>
+            <div class="F-left slider">
+                <input id="sliderZoomNode" max="12" min="1" step="0.2" type="range" value="7.0">
+            </div>
+            <div class="F-left">
+                <span class="zoom-node-plus" id="node-increase" style="display: none"></span>
+            </div>
+            <div class="F-left">
+                <button data-tooltip-top="Fit nodes height"
+                        id="zoom-fit-node" title="Try to fit the {node}s to the available vertical screen space">
+                    <img class="iconv-small" src="img/arrows-alt-v.png">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-center">
+        <div class="footer-text" id="filters-total"></div>
+    </div>
+
+    <div class="footer-right">
+        <div class="ts-scroll ">
+            <div class="F-left footer-text">
+                <p id="f-ts-scroll" class="ts-change">Scroll to {time slot}</p>
+            </div>
+            <div class="F-left footer-text">
+                <span id="tl-min"></span>
+            </div>
+            <div class="F-left slider">
+                <input id="timeSlider" max="100" min="0" type="range" value="0">
+                <span id="currentTS"></span>
+            </div>
+            <div class="F-left footer-text">
+                <span id="tl-max"></span>
+            </div>
+        </div>
+    </div>

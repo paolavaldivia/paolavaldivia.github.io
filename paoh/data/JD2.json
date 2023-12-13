@@ -1,0 +1,12237 @@
+{
+  "metadata": {
+    "ts_end": "2016-II",
+    "name": "Aviz",
+    "ts_start": "2007-I",
+    "ts_step": "0000/06/00"
+  },
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Matthew Van Der Zwan",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Matthew Kay",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Konstantinos Efstathiou",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Alex Endert",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Geelhaar Jens",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Jin-Kao Hao",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Wael Khemiri",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2009-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Petra Isenberg",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            8
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            11
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            8
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Wesley Willett",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Daniel Keim",
+      "data": [
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Sean Follmer",
+      "data": [
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Tobias Schreck",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Peter Rautek",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Andreas Butz",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Arjan Kuijper",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Ricardo Langner",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Nicolas Heulot",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Eduard Gr\u00f6ller",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Ilaria Liccardi",
+      "data": [
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Stefanie Klum",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Lingyun Yu",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Danyel Fisher",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Guillaume Riviere",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Ravin Balakrishnan",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Michel Beaudouin-Lafon",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Michael Mcguffin",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Meredith Ringel Morris",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Niklas Elmqvist",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Nadia Boukhelifa",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Luana Micallef",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Mark Hancock",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Steve Haroz",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Gennady Andrienko",
+      "data": [
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Lutton Evelyne",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Franck Vidal",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Thomas Baudel",
+      "data": [
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Waldo Gonzalo Cancino Ticona",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "St\u00e9phane Huot",
+      "data": [
+        {
+          "ts": "2010-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Luc Tremblay",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Bj\u00f6rn Zimmer",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Olivier Chapuis",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Chris North",
+      "data": [
+        {
+          "ts": "2007-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Romain Vuillemot",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            7
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Sheelagh Carpendale",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Katarzyna Borgiel",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Tomer Moscovich",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "David S. Ebert",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Carsten G\u00f6rg",
+      "data": [
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Marc Christie",
+      "data": [
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Fran\u00e7ois Poulet",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Alain Cady",
+      "data": [
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Jean Scholtz",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Jason Dykes",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Josua Krause",
+      "data": [
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Danny Holten",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Dieter Fellner",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Dominikus Baur",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Christophe Kolski",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Antoine Mazieres",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Frederic Vernier",
+      "data": [
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Francisco Fernandez de Vega",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Daniel F. Keefe",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Aidan Slingsby",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Jean-Daniel Fekete",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2007-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            10
+          ]
+        },
+        {
+          "ts": "2008-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2009-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2009-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            7
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            7
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            10
+          ]
+        },
+        {
+          "ts": "2011-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            6
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            9
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            6
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            6
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            6
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            6
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            7
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Mathieu Le Goc",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Moritz Gerl",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "B\u00e9n\u00e9dicte Le Grand",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Jason Alexander",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Huamin Qu",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "John Stasko",
+      "data": [
+        {
+          "ts": "2007-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Alice Thudt",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Anastasia Bezerianos",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Yann Riche",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Jarke Van Wijk",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "Aritra Dasgupta",
+      "data": [
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Samuel Huron",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Tobias Hesselmann",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Charles Perin",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            8
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "Asterios Katsifodimos",
+      "data": [
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Claudio Silva",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Saiganesh Swaminathan",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Pierre Dragicevic",
+      "data": [
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            7
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            8
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Anthony Tang",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Veronique Benzaken",
+      "data": [
+        {
+          "ts": "2009-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Romain Primet",
+      "data": [
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "J\u00e9r\u00e9my Legardeur",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Yvonne Jansen",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Waqas Javed",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "Guia Gali",
+      "data": [
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "Johannes Fuchs",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "Christophe Hurter",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Shion Guha",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "Michael Mauerer",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Basak Alper",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Gilbert Hugo",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "Tom Grabowski",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "Oliver Deussen",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Marc Schoenauer",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "Fabian Fischer",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "Enrico Bertini",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Alexandru Telea",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "Paul Asente",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Tinghuai Wang",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Emmanouil Giannisakis",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Florimond Gu\u00e9niat",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Pierrick Legrand",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Jean Louchet",
+      "data": [
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Wendy E. Mackay",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Raphael Velt",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Emmanoulis Giannisakis",
+      "data": [
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Abhijit Karnik",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Ali Parsaei",
+      "data": [
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "Collet Pierre",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Brian Fisher",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Ben Watson",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Nicolas Sauret",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "Nathalie Perrot",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Amira Bouadid",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Thomas Grabowski",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Ulrich Von Zadow",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "Halla Olafsdottir",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Raimund Dachselt",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "name": "David Ebert",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Sharoda Paul",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "name": "Cancino Waldo",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Michael Wybrow",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Abish Malik",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Juhee Bae",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "name": "Fr\u00e9d\u00e9ric Vernier",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Georges Grinstein",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "name": "Christian Pigorsch",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Ullmer Brygg",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": "Florian Mansmann",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "name": "Paloma Diaz",
+      "data": [
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "name": "Salma Mesmoudi",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Teresa Onorati",
+      "data": [
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "name": "Daniel Cernea",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "Dominique Archambault",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "name": "Michael Sedlmair",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "name": "Thanh-Nghi Do",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "name": "Tara Madhyastha",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "name": "Hans Hagen",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "name": "Leon Dozal",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "name": "Roland Fernandez",
+      "data": [
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "name": "Nadine Couture",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "name": "Fanny Chevalier",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "name": "Nicolas Monmarch\u00e9",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "name": "Ioana Manolescu",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2009-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "name": "Sophie Lepreux",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "name": "Yves Guiard",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "name": "Julie Foucquier",
+      "data": [
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "name": "Lawrence Kim",
+      "data": [
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "name": "Gerry Chu",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "name": "C\u00e9line Coutrix",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "name": "V\u00e9ronique Benzaken",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "name": "Ronald A. Rensink",
+      "data": [
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "name": "Tatiana Von Landesberger",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "name": "Romain Di Vozzo",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Pierre-Fr\u00e9d\u00e9ric Villard",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "name": "Kasper Hornb\u00e6k",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "name": "Jo Wood",
+      "data": [
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "name": "Daniel Archambault",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "name": "Fran\u00e7oise Detienne",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "name": "Christophe Lino",
+      "data": [
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "name": "Bernhard Jenny",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "name": "Sungye Kim",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "name": "Nicole Dufournaud",
+      "data": [
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "name": "Tijmen Klein",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "name": "Pierre-Luc H\u00e9mery",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "name": "Louis Eveillard",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "name": "Eddie Clemente",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "name": "Andreas Kerren",
+      "data": [
+        {
+          "ts": "2007-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "name": "Cecile Germain-Renaud",
+      "data": [
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "name": "Nathalie Henry Riche",
+      "data": [
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "name": "Alark Joshi",
+      "data": [
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "name": "Jeremy Boy",
+      "data": [
+        {
+          "ts": "2014-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2016-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "name": "Bongshin Lee",
+      "data": [
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "name": "Yun Jang",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "name": "Chris Rooney",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "name": "John Collomosse",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "name": "Tobias Isenberg",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            10
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            11
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "name": "Sebastien Kubicki",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "name": "Nathalie Henry-Riche",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "name": "Gustavo Olague",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "name": "Michael Behrisch",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "name": "Steven Franconeri",
+      "data": [
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "name": "Howard Goodell",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "name": "Adam Perer",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "name": "Parrend Pierre",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "name": "Jian Chen",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "name": "Torsten M\u00f6ller",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "name": "Ross Maciejewski",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "name": "Giovanni Squillero",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "name": "Guy Melan\u00e7on",
+      "data": [
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "name": "Tim Dwyer",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "name": "Isabelle Alavarez",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "name": "Leonardo Trujillo",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "name": "Romain Reuillon",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "name": "Jan Eric Kyprianidis",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "name": "Emmanuel Pietriga",
+      "data": [
+        {
+          "ts": "2009-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Nawel Takouachet",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "name": "Ye Lin",
+      "data": [
+        {
+          "ts": "2013-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "name": "Mountaz Hasco\u00ebt",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "name": "Pierre Collet",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "name": "Johan Kildal",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "name": "Heidi Lam",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "name": "Benjamin Bach",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2014-I",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "name": "J\u00f6rn Kohlhammer",
+      "data": [
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "name": "Denise Ogilvie",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "name": "Mary Czerwinski",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "name": "Kasper Hornbaek",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "name": "Theophanis Tsandilas",
+      "data": [
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "name": "Nathalie Henry",
+      "data": [
+        {
+          "ts": "2007-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2007-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2008-I",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2008-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2009-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2010-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "name": "Sriram Subramanian",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "name": "Evanthia Dimara",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "name": "Fran\u00e7oise D\u00e9tienne",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "name": "Conglei Shi",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2016-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "name": "Patrick Reuter",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "name": "Carla Maria Dal Sasso Freitas",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "name": "Andr\u00e9 Spritzer",
+      "data": [
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2013-II",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "name": "Evelyne Lutton",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            5
+          ]
+        },
+        {
+          "ts": "2011-II",
+          "value": [
+            3
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            2
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            4
+          ]
+        },
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "name": "Pascal Goffin",
+      "data": [
+        {
+          "ts": "2014-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-II",
+          "value": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222",
+      "name": "Luc Pastur",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "223",
+      "name": "Lora Oehlberg",
+      "data": [
+        {
+          "ts": "2014-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "224",
+      "name": "T. Metin Sezgin",
+      "data": [
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "225",
+      "name": "Catherine Plaisant",
+      "data": [
+        {
+          "ts": "2008-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "226",
+      "name": "Alberto Tonda",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2011-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-II",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "227",
+      "name": "Kwan-Liu Ma",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "228",
+      "name": "Julien Castet",
+      "data": [
+        {
+          "ts": "2013-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "229",
+      "name": "Kori Inkpen",
+      "data": [
+        {
+          "ts": "2010-II",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "230",
+      "name": "Giuseppe Di Battista",
+      "data": [
+        {
+          "ts": "2011-I",
+          "value": [
+            1
+          ]
+        },
+        {
+          "ts": "2012-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "231",
+      "name": "Andre Suslik Spritzer",
+      "data": [
+        {
+          "ts": "2015-I",
+          "value": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "ts": "2007-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "49"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "186"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "25"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "186"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "25",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "186"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "49"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "186"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2007-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "171"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "69"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "171"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "69"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "171",
+            "69"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2008-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "69"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "186"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "208"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "129"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "139"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "41"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "72"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "171"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "69",
+            "41"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "69",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "69",
+            "171"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "72",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "72",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "41"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "49",
+            "139"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "49",
+            "66"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "186",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "186",
+            "139"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "186",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "129",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "139",
+            "66"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "171"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2008-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "207",
+            "47"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "207",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "207",
+            "193"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "207",
+            "32"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "207",
+            "9"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "9",
+            "47"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "9",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "9",
+            "193"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "9",
+            "32"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "47",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "47",
+            "193"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "47",
+            "32"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "193"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "32"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "193",
+            "32"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2009-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "45",
+            "23"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "45",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "45",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "45",
+            "152"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "45",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "45",
+            "199"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "154"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "6"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "152",
+            "23"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "154"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "149"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "149"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "154"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2009-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "6"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "83"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "6"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "83"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "83"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2010-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "72",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "72",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "72",
+            "212"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "37",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "37",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "50",
+            "172"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "50",
+            "78"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "50",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "78",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "78",
+            "172"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "212",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "172",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2010-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "54",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "54",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "54",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "154"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "6"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "6"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "114"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "127"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "154"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "127",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "127",
+            "114"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "127",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "154"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "21",
+            "26"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "21",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "21",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "21",
+            "209"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "114",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "114",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "209",
+            "26"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "209",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "209",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "26"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "26",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2011-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "54",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "54",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "54",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "55",
+            "207"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "55",
+            "14"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "55",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "55",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "55",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "55",
+            "11"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "56",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "56",
+            "13"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "56",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "56",
+            "130"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "56",
+            "92"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "168"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "147"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "6",
+            "83"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "168",
+            "147"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "168",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "168",
+            "83"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "227"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "136"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "92"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "205"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "21"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "51"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "130"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "141"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "13"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "170",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "170",
+            "183"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "170",
+            "142"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "170",
+            "60"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "170",
+            "196"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "196",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "196",
+            "183"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "196",
+            "142"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "196",
+            "60"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "207"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "68"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "14"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "87"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "83"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "230"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "147"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "11"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "147",
+            "83"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "11",
+            "207"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "11",
+            "14"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "11",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "11",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "68",
+            "230"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "14",
+            "207"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "14",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "14",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "87"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "207"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "183",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "183",
+            "142"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "183",
+            "60"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "203"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "97"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "5"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "130",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "130",
+            "13"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "130",
+            "92"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "227"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "141"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "87"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "136"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "51"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "136",
+            "51"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "136",
+            "227"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "136",
+            "141"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "37"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "40"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "202"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "87"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "195",
+            "116"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "195",
+            "197"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "195",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "195",
+            "134"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "197",
+            "116"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "197",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "197",
+            "134"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "134",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "134",
+            "116"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "97"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "5"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "92",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "92",
+            "13"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "138",
+            "13"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "60",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "60",
+            "142"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "141",
+            "51"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "141",
+            "227"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "97"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "40",
+            "37"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "97",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "97",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "99",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "99",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "207",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "142"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "116"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "226"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "192"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "192",
+            "226"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "51",
+            "227"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2011-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "168",
+            "160"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "168",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "168",
+            "35"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "116"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "106"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "150"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "226"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "192"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "116",
+            "150"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "116",
+            "106"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "116",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "106",
+            "150"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "106",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "150",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "226",
+            "192"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "35"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "160"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "35",
+            "160"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2012-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "160",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "160",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "160",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "160",
+            "62"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "160",
+            "52"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "0",
+            "100"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "0",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "2",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "2",
+            "20"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "2",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "15",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "15",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "15",
+            "19"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "15",
+            "121"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "167",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "167",
+            "104"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "167",
+            "222"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "167",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "205"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "209"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "62"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "121"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "123"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "19"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "20"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "21"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "187"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "52"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "26"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "62",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "62",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "62",
+            "52"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "121",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "121",
+            "19"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "123",
+            "26"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "123",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "123",
+            "209"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "123",
+            "21"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "68"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "230"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "19"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "68",
+            "230"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "179",
+            "101"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "179",
+            "224"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "179",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "205"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "100"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "65"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "12"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "222"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "17"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "104"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "20"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "187"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "224"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "101"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "52"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "30"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "128",
+            "104"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "128",
+            "222"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "17",
+            "12"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "17",
+            "65"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "65",
+            "12"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "76",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "187",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "187",
+            "205"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "25",
+            "38"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "25",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "26",
+            "209"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "26",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "26",
+            "21"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "52"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "36"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "38"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "202"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "36",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "209",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "209",
+            "21"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "21",
+            "229"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "101",
+            "224"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "99",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "99",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "225"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "222",
+            "104"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2012-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "0",
+            "100"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "0",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "34",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "34",
+            "158"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "146"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "97"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "203",
+            "5"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "146"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "97"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "5",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "97",
+            "146"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "97",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "97",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "79"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "29"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "226",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "226",
+            "192"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "219",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "146",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "158"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "105"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "192"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "100",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "128",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "29",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2013-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "3"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "41"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "178"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "165",
+            "177"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "165",
+            "126"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "165",
+            "191"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "165",
+            "46"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "165",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "85"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "181"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "131"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "4"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "117"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "57",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "85"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "181"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "131"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "117"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "4",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "113"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "89"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "40"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "132"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "82"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "119"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "189"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "98"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "122"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "61",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "85"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "181"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "131"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "117",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "119",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "119",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "119",
+            "82"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "119",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "3"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "41",
+            "178"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "93"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "178"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "3"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "65",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "122",
+            "113"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "177",
+            "191"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "177",
+            "126"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "177",
+            "46"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "177",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "126",
+            "191"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "126",
+            "46"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "126",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "178",
+            "3"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "179",
+            "198"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "179",
+            "102"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "179",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "198"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "96"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "46"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "102"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "189"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "191"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "93"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "82"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "85"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "131"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "181",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "40"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "36"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "98",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "98",
+            "132"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "98",
+            "89"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "58"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "85"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "131",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "189",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "189",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "191",
+            "46"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "28",
+            "36"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "93"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "82",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "82",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "198",
+            "102"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "76"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "85",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "148"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "89",
+            "132"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "89",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "93"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "36",
+            "220"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "138",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "217"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "148",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "132",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "40",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "217",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "217",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "217",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "217",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "217",
+            "144"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "217",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "144",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "144",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "144",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "144",
+            "22"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "144",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "22",
+            "44"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "22",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "22",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "22",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "44",
+            "153"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "44",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "44",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "153",
+            "200"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "153",
+            "228"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "228",
+            "200"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2013-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "18"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "166"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "166"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "163",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "163",
+            "48"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "163",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "88"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "166",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "48",
+            "128"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "48",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "18"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "128",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "201",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "88"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "219"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "219",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2014-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "161"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "70"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "90"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "92"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "82"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "216"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "223"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "80"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "112",
+            "124"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "112",
+            "94"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "112",
+            "33"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "112",
+            "188"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "112",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "161"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "92",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "92",
+            "82"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "92",
+            "70"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "124"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "188"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "94"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "33"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "161"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "37",
+            "120"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "37",
+            "145"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "37",
+            "24"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "37",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "94",
+            "124"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "94",
+            "33"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "94",
+            "188"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "39",
+            "125"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "39",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "39",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "39",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "39",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "80"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "223"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "125"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "73"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "80"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "223"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "42"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "120",
+            "24"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "120",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "82",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "82",
+            "70"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "124",
+            "33"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "124",
+            "188"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "115",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "115",
+            "108"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "125"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "73",
+            "156"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "70",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "108"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "33",
+            "188"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "223",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "223",
+            "80"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "24",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "156",
+            "125"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "156",
+            "27"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "80",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "27",
+            "125"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "161",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2014-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "205"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "189"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "145",
+            "185"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "59",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "59",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "138"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "205",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "138",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "138",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "138",
+            "189"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "189"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "185",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "155",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "155",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "155",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "189",
+            "190"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "99",
+            "175"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2015-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "67"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "110"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "213"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "204"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "159",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "110",
+            "67"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "110",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "110",
+            "213"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "110",
+            "204"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "110",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "164",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "164",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "164",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "215",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "215",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "204",
+            "67"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "204",
+            "213"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "204",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "204",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "204",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "220",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "140"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "182"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "118"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "194"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "67"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "213"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "221"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "221"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "103"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "223"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "107"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "214"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "213",
+            "67"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "213",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "213",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "103"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "194"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "182"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "118"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "218",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "218",
+            "231"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "218",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "218",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "103"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "157"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "194"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "182"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "231"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "118"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "64"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "157"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "42",
+            "77"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "175",
+            "231"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "175",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "67",
+            "86"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "67",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "103",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "28"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "182",
+            "118"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "182",
+            "194"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "223",
+            "107"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "77",
+            "157"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "157",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "118",
+            "194"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "231"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2015-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "109",
+            "176"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "109",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "109",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "109",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "109",
+            "143"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "174"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "180"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "143"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "176",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "221",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "133"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "199",
+            "135"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "135",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "135",
+            "133"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "135",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "180",
+            "174"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "133"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "143"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "7"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "143"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "8"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "133"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "7",
+            "174"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "8",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "143",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "81",
+            "175"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2016-I",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "31",
+            "91"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "31",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "31",
+            "1"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "162",
+            "169"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "162",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "162",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "1",
+            "91"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "1",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "210"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "86",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "91",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "137"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "90",
+            "206"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "16"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "184"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "137"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "95"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "140"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "216"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "206",
+            "11"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "137",
+            "43"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "137",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "169",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "169",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "210",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "16"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "216"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "95"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "140",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "71"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "214",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "16"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "95"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "216",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "64"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "184"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "11"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "11",
+            "173"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "11",
+            "184"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "175",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "175",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "173",
+            "184"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "16",
+            "95"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "16",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "71",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "95",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "211",
+            "81"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2016-II",
+      "list": [
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "75"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "43",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "111",
+            "151"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "111",
+            "10"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "111",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "111",
+            "64"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "111",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "84",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "74",
+            "53"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "74",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "74",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "151",
+            "10"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "151",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "151",
+            "64"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "151",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "10"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "64",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "75",
+            "175"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "53",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "53",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "10",
+            "63"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "10",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "99"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "81"
+          ]
+        },
+        {
+          "w": 1,
+          "ids": [
+            "63",
+            "175"
+          ]
+        }
+      ]
+    }
+  ]
+}

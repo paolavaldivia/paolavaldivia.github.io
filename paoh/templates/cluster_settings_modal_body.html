@@ -1,0 +1,45 @@
+{{ #data }}
+<div class="row">
+    <div class="col-md-6">
+        <div class="row mb-4">
+            <div class="col-md-10">
+                {{ description }}
+            </div>
+            <div class="col-md-2 text-right">
+                <div class="row  text-right  mb-2">
+                    <button id="btnCluster" type="button" class="btn btn-secondary">Cluster</button>
+                </div>
+                <div class="row  text-right mb-2" style="display: inline-block">
+                    <button id="btnDynCluster" type="button" class="btn btn-secondary">Dyn Cluster</button></div>
+            </div>
+        </div>
+        <div class="row">
+            <h5>Parameters</h5>
+        </div>
+        {{# parameters }}
+        <div class="row mb-4">
+            <div class="col-md-4 w-100">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label id="label-{{name}}" for="parameter-{{name}}" class="input-group-text">{{ name }}:</label>
+                    </div>
+                    <input type="{{ type }}" class="form-control clustering-parameter" id="parameter-{{name}}" value="{{ default }}">
+                </div>
+            </div>
+            <div class="col-md-6 pl-0">
+                {{ description }}
+            </div>
+        </div>
+        {{/ parameters }}
+        {{^ parameters }}
+        <div class="row">
+            No parameters.
+        </div>
+        {{/ parameters }}
+    </div>
+    <div class="col-md-6">
+        <div id="visClusterResults" class="w-100" style="height: 50vh;">
+        </div>
+    </div>
+</div>
+{{ /data }}

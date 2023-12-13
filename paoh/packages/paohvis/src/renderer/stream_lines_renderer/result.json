@@ -1,0 +1,128 @@
+{
+  "graph": {
+    "format": 2.0,
+    "graph type": "bipartite",
+    "source_entity_type": "contract",
+    "target_entity_type": "person",
+    "time_slot": "year"
+  },
+  "nodes": [
+    {
+      "communities": [
+        0,
+        3,
+        3,
+        3
+      ],
+      "id": 0
+    },
+    {
+      "communities": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "id": 5
+    },
+    {
+      "communities": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "id": 2
+    },
+    {
+      "communities": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "id": 7
+    },
+    {
+      "communities": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "id": 6
+    },
+    {
+      "communities": [
+        0,
+        3,
+        3,
+        "None"
+      ],
+      "id": 1
+    },
+    {
+      "communities": [
+        "None",
+        3,
+        3,
+        3
+      ],
+      "id": 3
+    },
+    {
+      "communities": [
+        "None",
+        1,
+        3,
+        3
+      ],
+      "id": 4
+    },
+    {
+      "communities": [
+        "None",
+        "None",
+        3,
+        3
+      ],
+      "id": 9
+    },
+    {
+      "communities": [
+        "None",
+        "None",
+        4,
+        3
+      ],
+      "id": 10
+    },
+    {
+      "communities": [
+        "None",
+        "None",
+        4,
+        3
+      ],
+      "id": 11
+    },
+    {
+      "communities": [
+        "None",
+        "None",
+        3,
+        3
+      ],
+      "id": 8
+    },
+    {
+      "communities": [
+        "None",
+        "None",
+        4,
+        3
+      ],
+      "id": 12
+    }
+  ]
+}
