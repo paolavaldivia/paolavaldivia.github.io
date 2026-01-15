@@ -1,0 +1,267 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const publications = [
+  {
+    title: "Visualizing Hypergraphs: Comparing Degree-of-Interest and Matrix-Based Approaches",
+    authors: "Paola Valdivia, et al.",
+    venue: "EuroVis 2017 - Short Papers",
+    year: 2017,
+    image: "/img/pubs/hyper.png",
+    links: [
+      { label: "PDF", url: "/files/Hypenet_EuroVis17.pdf" },
+      { label: "Poster", url: "/files/Poster-DcPairs-EuroVis17.pdf" }
+    ]
+  },
+  {
+    title: "Dynamic Network Visualization with Wavelet Analysis",
+    authors: "Paola Valdivia, et al.",
+    venue: "Research Publication",
+    year: 2017,
+    image: "/img/pubs/dynwav.pdf",
+    links: [
+      { label: "PDF", url: "/img/pubs/dynwav.pdf" }
+    ]
+  },
+  {
+    title: "PhD Thesis: Visualization Techniques for Complex Networks",
+    authors: "Paola Valdivia",
+    venue: "PhD Dissertation",
+    year: null,
+    image: "/img/pubs/th.png",
+    links: [
+      { label: "Thesis", url: "/files/PaolaLValdiviaRevisada.pdf" },
+      { label: "Defense Slides", url: "/files/phd_slides.pdf" }
+    ]
+  },
+  {
+    title: "Master's Thesis",
+    authors: "Paola Valdivia",
+    venue: "MSc Dissertation",
+    year: null,
+    image: "/img/pubs/paovis_solid.png",
+    links: [
+      { label: "Defense Slides", url: "/files/msc_slides.pdf" },
+      { label: "Poster", url: "/img/pubs/paovis_poster.pdf" }
+    ]
+  }
+];
+---
+
+<BaseLayout title="Publications - Paola Valdivia" description="Academic publications and research papers">
+  <div class="container">
+    <h1>Publications</h1>
+    <p class="page-intro">
+      Research publications focusing on information visualization, hypergraph analysis,
+      and network visualization techniques.
+    </p>
+
+    <div class="publications-list">
+      {publications.map(pub => (
+        <article class="publication">
+          <div class="pub-image">
+            <img src={pub.image} alt={pub.title} />
+          </div>
+          <div class="pub-content">
+            <h2>{pub.title}</h2>
+            <p class="pub-authors">{pub.authors}</p>
+            <p class="pub-venue">
+              {pub.venue}
+              {pub.year && <span class="pub-year"> ({pub.year})</span>}
+            </p>
+            <div class="pub-links">
+              {pub.links.map(link => (
+                <a href={link.url} class="pub-link" target="_blank" rel="noopener">
+                  <img src="/img/pdf.png" alt="" />
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <section class="profiles">
+      <h2>Academic Profiles</h2>
+      <div class="profile-links">
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener" class="profile-card">
+          <img src="/img/googlescholar.png" alt="Google Scholar" />
+          <span>Google Scholar</span>
+        </a>
+        <a href="https://orcid.org/" target="_blank" rel="noopener" class="profile-card">
+          <img src="/img/orcid.png" alt="ORCID" />
+          <span>ORCID</span>
+        </a>
+        <a href="http://lattes.cnpq.br/" target="_blank" rel="noopener" class="profile-card">
+          <img src="/img/lattes.png" alt="Lattes" />
+          <span>Lattes CV</span>
+        </a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .page-intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 3rem;
+    max-width: 800px;
+  }
+
+  .publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .publication {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .publication:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .pub-image {
+    background-color: white;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pub-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px;
+  }
+
+  .pub-content h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+  }
+
+  .pub-authors {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.3rem;
+  }
+
+  .pub-venue {
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  .pub-year {
+    color: var(--secondary-color);
+  }
+
+  .pub-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .pub-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    transition: all 0.3s;
+  }
+
+  .pub-link:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--secondary-color);
+  }
+
+  .pub-link img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .profiles {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 2px solid var(--border-color);
+  }
+
+  .profiles h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .profile-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    min-width: 150px;
+    transition: all 0.3s;
+  }
+
+  .profile-card:hover {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+  }
+
+  .profile-card img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .profile-card span {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .publication {
+      grid-template-columns: 1fr;
+    }
+
+    .pub-image {
+      max-height: 200px;
+    }
+  }
+</style>
