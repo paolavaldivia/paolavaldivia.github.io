@@ -102,26 +102,35 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .btn-primary {
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--green);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    background-image: none;
   }
 
   .btn-primary:hover {
-    background-color: #2980b9;
+    background-color: #0d5238;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    -webkit-text-fill-color: #fff;
+    background-image: none;
+    opacity: 1;
   }
 
   .btn-secondary {
     background-color: transparent;
-    border: 2px solid var(--secondary-color);
-    color: var(--secondary-color);
+    border: 2px solid var(--terracotta);
+    color: var(--terracotta);
+    -webkit-text-fill-color: var(--terracotta);
+    background-image: none;
   }
 
   .btn-secondary:hover {
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--terracotta);
+    -webkit-text-fill-color: #fff;
+    background-image: none;
     transform: translateY(-2px);
+    opacity: 1;
   }
 
   .highlights {
@@ -140,20 +149,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .interest-card {
-    background-color: var(--light-bg);
+    background-color: #fff;
     padding: 2rem;
-    border-radius: 8px;
-    border-left: 4px solid var(--secondary-color);
+    border-radius: 4px;
+    border-left: 4px solid var(--terracotta);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
   }
 
   .interest-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.15);
   }
 
   .interest-card h3 {
-    color: var(--secondary-color);
+    color: var(--green);
     margin-bottom: 0.5rem;
   }
 

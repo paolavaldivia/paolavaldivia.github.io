@@ -42,8 +42,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--green);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    background-image: none;
     text-decoration: none;
     border-radius: 4px;
     font-weight: 400;
@@ -51,7 +53,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .download-btn:hover {
-    background-color: #2980b9;
+    background-color: #0d5238;
+    background-image: none;
+    -webkit-text-fill-color: #fff;
+    opacity: 1;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
@@ -63,7 +68,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .cv-viewer {
-    background-color: var(--light-bg);
+    background-color: var(--content-bg);
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -82,12 +87,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-top: 2rem;
     text-align: center;
     padding: 2rem;
-    background-color: var(--light-bg);
+    background-color: var(--content-bg);
     border-radius: 8px;
   }
 
   .cv-footer a {
-    color: var(--secondary-color);
+    color: var(--terracotta);
     font-weight: 400;
   }
 

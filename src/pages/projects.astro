@@ -100,10 +100,10 @@ const projects = [
     display: grid;
     grid-template-columns: 400px 1fr;
     gap: 2rem;
-    background-color: var(--light-bg);
-    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.12);
     transition: transform 0.3s, box-shadow 0.3s;
   }
 
@@ -133,7 +133,7 @@ const projects = [
 
   .project-content h2 {
     margin-bottom: 1rem;
-    color: var(--primary-color);
+    color: var(--green);
   }
 
   .project-content p {
@@ -153,17 +153,22 @@ const projects = [
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     background-color: white;
-    border: 1px solid var(--border-color);
+    border: 1px solid #c8c4be;
     border-radius: 4px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--green);
+    -webkit-text-fill-color: var(--green);
+    background-image: none;
     transition: all 0.3s;
   }
 
   .project-link:hover {
-    background-color: var(--secondary-color);
-    color: white;
-    border-color: var(--secondary-color);
+    background-color: var(--green);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    border-color: var(--green);
+    background-image: none;
+    opacity: 1;
   }
 
   .project-link img {

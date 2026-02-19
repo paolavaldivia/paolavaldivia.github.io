@@ -125,10 +125,10 @@ const publications = [
     display: grid;
     grid-template-columns: 250px 1fr;
     gap: 2rem;
-    background-color: var(--light-bg);
-    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 4px;
     padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.12);
     transition: transform 0.3s, box-shadow 0.3s;
   }
 
@@ -156,7 +156,7 @@ const publications = [
   .pub-content h2 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: var(--primary-color);
+    color: var(--green);
   }
 
   .pub-authors {
@@ -172,7 +172,7 @@ const publications = [
   }
 
   .pub-year {
-    color: var(--secondary-color);
+    color: var(--terracotta);
   }
 
   .pub-links {
@@ -187,18 +187,22 @@ const publications = [
     gap: 0.4rem;
     padding: 0.4rem 0.9rem;
     background-color: white;
-    border: 1px solid var(--border-color);
+    border: 1px solid #c8c4be;
     border-radius: 4px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--green);
+    -webkit-text-fill-color: var(--green);
+    background-image: none;
     font-size: 0.9rem;
     transition: all 0.3s;
   }
 
   .pub-link:hover {
-    background-color: var(--secondary-color);
-    color: white;
-    border-color: var(--secondary-color);
+    background-color: var(--green);
+    -webkit-text-fill-color: #fff;
+    background-image: none;
+    border-color: var(--green);
+    opacity: 1;
   }
 
   .pub-link img {
@@ -209,7 +213,7 @@ const publications = [
   .profiles {
     margin-top: 4rem;
     padding-top: 3rem;
-    border-top: 2px solid var(--border-color);
+    border-top: 2px solid #c8c4be;
   }
 
   .profiles h2 {
@@ -230,10 +234,12 @@ const publications = [
     align-items: center;
     gap: 1rem;
     padding: 2rem;
-    background-color: var(--light-bg);
-    border-radius: 8px;
+    background-color: var(--content-bg);
+    border-radius: 4px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--green);
+    -webkit-text-fill-color: var(--green);
+    background-image: none;
     min-width: 150px;
     transition: all 0.3s;
   }
