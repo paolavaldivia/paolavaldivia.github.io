@@ -4,9 +4,10 @@ import { ClientRouter } from 'astro:transitions';
 interface Props {
   title?: string;
   description?: string;
+  pageColor?: string;
 }
 
-const { title = 'Paola Valdivia', description = 'Senior Software Engineer - React, TypeScript, C#, Data Visualization' } = Astro.props;
+const { title = 'Paola Valdivia', description = 'Senior Software Engineer - React, TypeScript, C#, Data Visualization', pageColor = '#0a402b' } = Astro.props;
 const currentPath = Astro.url.pathname;
 ---
 
@@ -37,7 +38,7 @@ const currentPath = Astro.url.pathname;
   </script>
 </head>
 <body>
-  <nav class="navbar" transition:name="site-nav" transition:animate="fade">
+  <nav class="navbar">
     <div class="container">
       <a href="/" class="logo">Paola Valdivia</a>
       <ul class="nav-links">
@@ -46,14 +47,17 @@ const currentPath = Astro.url.pathname;
         <li><a href="/publications" class={currentPath === '/publications' ? 'active' : ''}>Publications</a></li>
         <li><a href="/cv" class={currentPath === '/cv' ? 'active' : ''}>CV</a></li>
       </ul>
+      <span class="nav-indicator" id="nav-indicator"></span>
     </div>
   </nav>
 
-  <main>
+  <div class="page-stripe" transition:name="page-stripe" style={`background-color: ${pageColor}`}></div>
+
+  <main transition:name="main-content">
     <slot />
   </main>
 
-  <footer transition:name="site-footer" transition:animate="fade">
+  <footer>
     <div class="container">
       <div class="social-links">
         <a href="https://github.com/paolavaldivia" target="_blank" rel="noopener" title="GitHub">
@@ -136,6 +140,7 @@ const currentPath = Astro.url.pathname;
       padding: 0.8rem 0;
       border-bottom: 1px solid #e0ddd8;
       font-variant: small-caps;
+      position: relative;
     }
 
     .navbar .container {
@@ -183,6 +188,27 @@ const currentPath = Astro.url.pathname;
       -webkit-text-fill-color: var(--green);
       background: none;
       color: var(--green);
+    }
+
+    /* Sliding nav indicator (magic line) */
+    .nav-indicator {
+      position: absolute;
+      bottom: 0;
+      height: 3px;
+      background-color: var(--terracotta);
+      border-radius: 2px 2px 0 0;
+      transition:
+        left 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        width 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        opacity 0.2s;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* Page color stripe (C) */
+    .page-stripe {
+      height: 4px;
+      width: 100%;
     }
 
     /* Main content */
@@ -246,78 +272,84 @@ const currentPath = Astro.url.pathname;
 
       h1 { font-size: 1.8rem; }
       h2 { font-size: 1.3rem; }
+
+      .nav-indicator {
+        display: none;
+      }
     }
 
-    /* View Transitions */
-    @keyframes slide-from-right {
-      from { opacity: 0; transform: translateX(24px); }
+    /* =====================
+       VIEW TRANSITIONS
+       ===================== */
+
+    /* Root (nav + footer + bg): instant swap — no distracting flash */
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      animation: none;
+      mix-blend-mode: normal;
     }
 
-    @keyframes slide-to-left {
-      to { opacity: 0; transform: translateX(-24px); }
-    }
-
-    @keyframes vt-fade-in {
-      from { opacity: 0; }
+    /* Main content: clip-path curtain wipe (A) */
+    @keyframes vt-wipe-in {
+      from { clip-path: inset(0 0 0 100%); }
+      to   { clip-path: inset(0 0 0 0); }
     }
 
     @keyframes vt-fade-out {
       to { opacity: 0; }
     }
 
-    @keyframes profile-in {
-      from { opacity: 0; transform: scale(0.92); }
+    ::view-transition-old(main-content) {
+      animation: 220ms ease-in vt-fade-out both;
     }
 
-    @keyframes profile-out {
-      to { opacity: 0; transform: scale(1.04); }
+    ::view-transition-new(main-content) {
+      animation: 400ms cubic-bezier(0.22, 1, 0.36, 1) vt-wipe-in both;
     }
 
-    @keyframes title-in {
-      from { opacity: 0; transform: translateY(10px); }
+    /* Page stripe: crossfade between page colors (C) */
+    @keyframes vt-fade-in {
+      from { opacity: 0; }
     }
 
-    @keyframes title-out {
-      to { opacity: 0; transform: translateY(-8px); }
+    ::view-transition-old(page-stripe) {
+      animation: 200ms ease-in vt-fade-out both;
     }
 
-    /* Root transition: slide the main content */
-    ::view-transition-old(root) {
-      animation: 220ms ease-in slide-to-left both;
+    ::view-transition-new(page-stripe) {
+      animation: 300ms ease-out vt-fade-in both;
     }
 
-    ::view-transition-new(root) {
-      animation: 280ms ease-out slide-from-right both;
-    }
-
-    /* Nav and footer: fast cross-fade in place */
-    ::view-transition-old(site-nav),
-    ::view-transition-old(site-footer) {
-      animation: 150ms ease-in vt-fade-out both;
-    }
-
-    ::view-transition-new(site-nav),
-    ::view-transition-new(site-footer) {
-      animation: 200ms ease-out vt-fade-in both;
-    }
-
-    /* Page title: subtle vertical slide */
-    ::view-transition-old(page-title) {
-      animation: 180ms ease-in title-out both;
-    }
-
-    ::view-transition-new(page-title) {
-      animation: 260ms ease-out title-in both;
-    }
-
-    /* Profile photo: gentle scale */
-    ::view-transition-old(profile-photo) {
-      animation: 200ms ease-in profile-out both;
-    }
-
-    ::view-transition-new(profile-photo) {
-      animation: 300ms ease-out profile-in both;
+    /* Section stagger on element insertion (B)
+       Transform-only (no opacity) so it doesn't conflict with the
+       clip-path screenshot. Sections rise up as the page wipes in. */
+    @keyframes vt-section-rise {
+      from { transform: translateY(22px); }
+      to   { transform: translateY(0); }
     }
   </style>
+
+  <script>
+    // Magic sliding nav indicator (A)
+    function updateNavIndicator() {
+      const active = document.querySelector('.nav-links a.active') as HTMLElement | null;
+      const indicator = document.getElementById('nav-indicator') as HTMLElement | null;
+      const navbar = document.querySelector('.navbar') as HTMLElement | null;
+      if (!indicator || !navbar) return;
+
+      if (active) {
+        const activeRect = active.getBoundingClientRect();
+        const navbarRect = navbar.getBoundingClientRect();
+        indicator.style.left = (activeRect.left - navbarRect.left) + 'px';
+        indicator.style.width = activeRect.width + 'px';
+        indicator.style.opacity = '1';
+      } else {
+        indicator.style.opacity = '0';
+      }
+    }
+
+    document.addEventListener('astro:page-load', updateNavIndicator);
+    updateNavIndicator();
+  </script>
 </body>
 </html>

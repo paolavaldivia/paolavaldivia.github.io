@@ -45,9 +45,9 @@ const projects = [
 ];
 ---
 
-<BaseLayout title="Projects - Paola Valdivia" description="Research projects and visualization tools">
+<BaseLayout title="Projects - Paola Valdivia" description="Research projects and visualization tools" pageColor="#bb8462">
   <div class="container">
-    <h1 transition:name="page-title">Projects</h1>
+    <h1>Projects</h1>
     <p class="page-intro">
       A collection of research projects, visualization tools, and interactive demonstrations
       focused on network analysis, hypergraph visualization, and visual analytics.
@@ -80,6 +80,19 @@ const projects = [
 </BaseLayout>
 
 <style>
+  /* Section stagger (B) */
+  h1 {
+    animation: vt-section-rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .page-intro {
+    animation: vt-section-rise 0.45s 0.07s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .projects-grid {
+    animation: vt-section-rise 0.45s 0.14s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
   h1 {
     margin-bottom: 1rem;
   }

@@ -2,10 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="CV - Paola Valdivia" description="Curriculum Vitae">
+<BaseLayout title="CV - Paola Valdivia" description="Curriculum Vitae" pageColor="#0a402b">
   <div class="container">
     <div class="cv-header">
-      <h1 transition:name="page-title">Curriculum Vitae</h1>
+      <h1>Curriculum Vitae</h1>
       <a href="/files/PaolaValdivia_CV.pdf" class="download-btn" download>
         <img src="/img/curriculum-vitae.png" alt="" />
         Download PDF
@@ -26,6 +26,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <style>
+  /* Section stagger (B) */
+  .cv-header {
+    animation: vt-section-rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .cv-viewer {
+    animation: vt-section-rise 0.45s 0.07s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .cv-footer {
+    animation: vt-section-rise 0.45s 0.14s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
   .cv-header {
     display: flex;
     justify-content: space-between;
