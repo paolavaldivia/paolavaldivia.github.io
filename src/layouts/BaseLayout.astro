@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
+
 interface Props {
   title?: string;
   description?: string;
@@ -23,6 +25,8 @@ const currentPath = Astro.url.pathname;
   <link href="https://fonts.googleapis.com/css?family=Mitr:400,300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 
+  <ViewTransitions />
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41266080-1"></script>
   <script is:inline>
@@ -33,7 +37,7 @@ const currentPath = Astro.url.pathname;
   </script>
 </head>
 <body>
-  <nav class="navbar">
+  <nav class="navbar" transition:name="site-nav" transition:animate="fade">
     <div class="container">
       <a href="/" class="logo">Paola Valdivia</a>
       <ul class="nav-links">
@@ -49,7 +53,7 @@ const currentPath = Astro.url.pathname;
     <slot />
   </main>
 
-  <footer>
+  <footer transition:name="site-footer" transition:animate="fade">
     <div class="container">
       <div class="social-links">
         <a href="https://github.com/paolavaldivia" target="_blank" rel="noopener" title="GitHub">
@@ -242,6 +246,77 @@ const currentPath = Astro.url.pathname;
 
       h1 { font-size: 1.8rem; }
       h2 { font-size: 1.3rem; }
+    }
+
+    /* View Transitions */
+    @keyframes slide-from-right {
+      from { opacity: 0; transform: translateX(24px); }
+    }
+
+    @keyframes slide-to-left {
+      to { opacity: 0; transform: translateX(-24px); }
+    }
+
+    @keyframes vt-fade-in {
+      from { opacity: 0; }
+    }
+
+    @keyframes vt-fade-out {
+      to { opacity: 0; }
+    }
+
+    @keyframes profile-in {
+      from { opacity: 0; transform: scale(0.92); }
+    }
+
+    @keyframes profile-out {
+      to { opacity: 0; transform: scale(1.04); }
+    }
+
+    @keyframes title-in {
+      from { opacity: 0; transform: translateY(10px); }
+    }
+
+    @keyframes title-out {
+      to { opacity: 0; transform: translateY(-8px); }
+    }
+
+    /* Root transition: slide the main content */
+    ::view-transition-old(root) {
+      animation: 220ms ease-in slide-to-left both;
+    }
+
+    ::view-transition-new(root) {
+      animation: 280ms ease-out slide-from-right both;
+    }
+
+    /* Nav and footer: fast cross-fade in place */
+    ::view-transition-old(site-nav),
+    ::view-transition-old(site-footer) {
+      animation: 150ms ease-in vt-fade-out both;
+    }
+
+    ::view-transition-new(site-nav),
+    ::view-transition-new(site-footer) {
+      animation: 200ms ease-out vt-fade-in both;
+    }
+
+    /* Page title: subtle vertical slide */
+    ::view-transition-old(page-title) {
+      animation: 180ms ease-in title-out both;
+    }
+
+    ::view-transition-new(page-title) {
+      animation: 260ms ease-out title-in both;
+    }
+
+    /* Profile photo: gentle scale */
+    ::view-transition-old(profile-photo) {
+      animation: 200ms ease-in profile-out both;
+    }
+
+    ::view-transition-new(profile-photo) {
+      animation: 300ms ease-out profile-in both;
     }
   </style>
 </body>
