@@ -48,9 +48,9 @@ const publications = [
 ];
 ---
 
-<BaseLayout title="Publications - Paola Valdivia" description="Academic publications and research papers">
+<BaseLayout title="Publications - Paola Valdivia" description="Academic publications and research papers" pageColor="#97461a">
   <div class="container">
-    <h1 transition:name="page-title">Publications</h1>
+    <h1>Publications</h1>
     <p class="page-intro">
       Research publications focusing on information visualization, hypergraph analysis,
       and network visualization techniques.
@@ -103,6 +103,23 @@ const publications = [
 </BaseLayout>
 
 <style>
+  /* Section stagger (B) */
+  h1 {
+    animation: vt-section-rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .page-intro {
+    animation: vt-section-rise 0.45s 0.07s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .publications-list {
+    animation: vt-section-rise 0.45s 0.14s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .profiles {
+    animation: vt-section-rise 0.45s 0.21s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
   h1 {
     margin-bottom: 1rem;
   }
